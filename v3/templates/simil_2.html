@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Images Similaires</h1><br>
+        <article class="media content-section">
+            <div class="media-body">
+                <h4 class="article-content">Votre image</h4><br>
+                <img src= "{{ full_path }}" alt="User image" width="300">
+            </div>
+        </article>
+        <article class="media content-section">
+            <div class="media-body">
+                <h4 class="article-content">Images similaires</h4><br>
+                {% for im in resp %}
+                <img src= "{{ im }}" alt="" width="300">
+                <p></p>
+                {% endfor %}
+            </div>
+        </article>
+
+{% endblock content %}

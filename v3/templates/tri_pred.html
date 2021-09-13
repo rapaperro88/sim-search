@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Tri d'images</h1><br>
+        <article class="media content-section">
+            <div class="media-body">
+                <h4 class="article-content">Vos images</h4><br>
+                <img src= "{{ file_list }}" alt="User image" width="30">
+            </div>
+        </article>
+        <article class="media content-section">
+            <div class="media-body">
+
+                <h4 class="article-content">Le tri :</h4><br>
+<!--                {% for im in file_list %}-->
+<!--                <img src= "{{ im }}" alt="" width="300">-->
+                <p>{{ file_list }}</p>
+<!--                {% endfor %}-->
+            </div>
+        </article>
+
+{% endblock content %}

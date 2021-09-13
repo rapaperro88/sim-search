@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Tri d'images</h1><br>
+        <article class="media content-section">
+          <div class="media-body">
+            <p class="article-content">{{ task.content }}</p>
+          </div>
+        </article>
+
+        <h4 class="article-content">Votre dossier :</h4>
+
+        <article class="media content-section">
+            <div class="media-body">
+                <p>
+                    <br>
+                    <form  method=post enctype=multipart/form-data>
+                    <input type="file" id="filepicker" name="fileList" webkitdirectory multiple /><br><br>
+                    <input type=submit value=Séléction>
+                    <ul id="listing"></ul>
+                </p>
+          </div>
+        </article>
+{% endblock content %}
+
+
+

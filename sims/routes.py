@@ -1,9 +1,11 @@
+import os
 from flask import render_template, url_for, flash, redirect, request
-from sims import app, db, bcrypt
-from sims.forms import RegistrationForm, LoginForm
+from sims import app, db, bcrypt, mail
+from sims.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
+                        RequestResetForm, ResetPasswordForm)
 from sims.models import User
-
 from flask_login import login_user, current_user, logout_user, login_required
+from flask_mail import Message
 
 from werkzeug.utils import secure_filename
 import logging
@@ -12,7 +14,7 @@ import sys
 sys.path.append('./sims/utils')
 import inference_utils
 import utils
-import os
+
 
 
 if len([f for f in os.listdir("./") if f.endswith("db")]) == 0:
@@ -71,12 +73,11 @@ def register():
         user = User(username=form.username.data, email=form.email.data, password=hashed_password)
         db.session.add(user)
         db.session.commit()
-        flash(f'Le compte pour {form.username.data} a bien été crée!', 'success')
+        flash(f'Le compte pour {form.username.data} a bien été crée! \
+        Veuillez vous connecter pour pouvoir utiliser Sim-Search', 'success')
         logging.info(f"New account created. login: {form.username.data}.")
         return redirect("/")
     return render_template('register.html', title="S'inscrire", form=form)
-
-
 
 
 @app.route("/login", methods=['GET', 'POST'])
@@ -89,6 +90,7 @@ def login():
         if user and bcrypt.check_password_hash(user.password, form.password.data):
             login_user(user, remember=form.remember.data)
             next_page = request.args.get('next')
+            logging.info(f"Logged as: {form.email.data}.")
             return redirect(next_page) if next_page else redirect("/")
         else:
             flash("Connexion refusée. Veillez vérifier le nom d'utilisateur et le mot de passe", 'danger')
@@ -98,13 +100,73 @@ def login():
 @app.route("/logout")
 def logout():
     logout_user()
+    logging.info(f"User logged out.")
     return redirect("/")
 
 
-@app.route("/account")
+@app.route("/account", methods=['GET', 'POST'])
 @login_required
 def account():
-    return render_template('account.html', title='Mon compte')
+    form = UpdateAccountForm()
+    if form.validate_on_submit():
+        if form.picture.data:
+            picture_file = utils.save_picture(form.picture.data, app)
+            current_user.image_file = picture_file
+        current_user.username = form.username.data
+        current_user.email = form.email.data
+        db.session.commit()
+        flash("Vos informations ont bien été mises à jour.", 'success')
+        return redirect(url_for('account'))
+    elif request.method == 'GET':
+        form.username.data = current_user.username
+        form.email.data = current_user.email
+    image_file = url_for('static', filename='profile_pics/' + current_user.image_file)
+    return render_template('account.html', title='Mon compte',
+                           image_file=image_file, form=form)
+
+
+def send_reset_email(user):
+    token = user.get_reset_token()
+    msg = Message('[Sim-Search] Réinitialisation du mot de passe',
+                  sender='andres.lombana88@gmail.com',
+                  recipients=[user.email])
+    msg.body = f'''Pour changer votre mot de passe dans l'application Sim-Search, veuillez cliquer sur le lien ci-dessous :
+{url_for('reset_token', token=token, _external=True)}
+Si vous n'êtes pas à l'origine de cette demande veuillez ignorer ce mail.
+'''
+    mail.send(msg)
+
+
+@app.route("/reset_password", methods=['GET', 'POST'])
+def reset_request():
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
+    form = RequestResetForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=form.email.data).first()
+        send_reset_email(user)
+        flash(f'Un mail vous a été envoyé à {user} avec les instructions pour réinitialiser votre mot de passe.', 'info')
+        return redirect(url_for('login'))
+    return render_template('reset_request.html', title='Réinitialiser le mot de passe', form=form)
+
+
+@app.route("/reset_password/<token>", methods=['GET', 'POST'])
+def reset_token(token):
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
+    user = User.verify_reset_token(token)
+    if user is None:
+        flash('Le token utilisé a expiré ou est incorrect.', 'warning')
+        return redirect(url_for('reset_request'))
+    form = ResetPasswordForm()
+    if form.validate_on_submit():
+        hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+        user.password = hashed_password
+        db.session.commit()
+        flash("Votre mot de passe a bien été modifié, vous pouvez vous connecter dès à présent.", 'success')
+        return redirect(url_for('login'))
+    return render_template('reset_token.html', title='Reset Password', form=form)
+
 
 
 # -----------------------------------------------------------------

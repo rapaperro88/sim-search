@@ -886,3 +886,343 @@
 2021-09-14 11:50:04.550 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:04] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
 2021-09-14 11:50:23.301 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:23] "GET /account HTTP/1.1" 200 -
 2021-09-14 11:50:23.349 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:15:34.190 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:15:34.699 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:15:37.030 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:15:37.047 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:15:46.384 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:15:46.902 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:15:49.251 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:15:49.263 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:16:08.969 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:16:09.552 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:33:22.997 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 12:33:22.998 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:33:25.271 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:33:25.281 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:33:27.928 INFO routes - home: App initialized
+2021-09-14 12:33:27.942 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:27] "GET / HTTP/1.1" 200 -
+2021-09-14 12:33:28.005 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:33:28.024 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:28] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 12:33:30.872 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:30] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:33:30.918 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:33:30.920 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:30] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2021-09-14 12:33:39.201 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:39] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2021-09-14 12:33:39.247 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:39] "GET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 12:33:39.247 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:39] "GET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 12:33:39.267 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:33:39] "GET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 12:34:34.875 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:34:35.367 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:34:37.740 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:34:37.753 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:34:38.602 INFO routes - logout: User logged out.
+2021-09-14 12:34:38.604 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-14 12:34:38.608 INFO routes - home: App initialized
+2021-09-14 12:34:38.616 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:38] "GET / HTTP/1.1" 200 -
+2021-09-14 12:34:38.662 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:38] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:34:38.671 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:38] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 12:34:39.529 INFO routes - main: Entering home endpoint
+2021-09-14 12:34:39.532 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:39] "GET /main HTTP/1.1" 200 -
+2021-09-14 12:34:39.578 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:34:45.827 INFO routes - simil: Similar images selected
+2021-09-14 12:34:45.828 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-14 12:34:45.830 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:45] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-14 12:34:45.874 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:45] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:34:49.420 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:49] "GET /login HTTP/1.1" 200 -
+2021-09-14 12:34:49.464 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:49] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:34:57.103 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:57] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 12:34:57.143 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:57] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 12:34:57.144 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:57] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 12:34:57.165 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:34:57] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 12:35:25.383 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:35:25.893 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:35:28.241 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:35:28.252 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:35:29.033 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-14 12:35:29.034 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:35:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-14 12:35:29.038 INFO routes - home: App initialized
+2021-09-14 12:35:29.048 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:35:29] "GET / HTTP/1.1" 200 -
+2021-09-14 12:35:29.089 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:35:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:35:29.097 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:35:29] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 12:35:34.408 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:35:34] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:35:34.449 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:35:34] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:35:34.450 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:35:34] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2021-09-14 12:37:29.114 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:29] "[32mPOST /account HTTP/1.1[0m" 302 -
+2021-09-14 12:37:29.122 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:29] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:37:29.156 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:37:29.168 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:29] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2021-09-14 12:37:36.121 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-14 12:37:36.121 DEBUG PngImagePlugin - call: STREAM b'bKGD' 41 6
+2021-09-14 12:37:36.121 DEBUG PngImagePlugin - _open: b'bKGD' 41 6 (unknown)
+2021-09-14 12:37:36.121 DEBUG PngImagePlugin - call: STREAM b'IDAT' 59 32768
+2021-09-14 12:37:36.164 DEBUG PngImagePlugin - call: STREAM b'tEXt' 1877256 18
+2021-09-14 12:37:36.184 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:36] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2021-09-14 12:37:36.216 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:36] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 12:37:36.217 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:36] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 12:37:36.238 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:37:36] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 12:38:34.150 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:38:34.638 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:38:37.069 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:38:37.079 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:38:37.127 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-14 12:38:37.127 DEBUG PngImagePlugin - call: STREAM b'bKGD' 41 6
+2021-09-14 12:38:37.127 DEBUG PngImagePlugin - _open: b'bKGD' 41 6 (unknown)
+2021-09-14 12:38:37.127 DEBUG PngImagePlugin - call: STREAM b'IDAT' 59 32768
+2021-09-14 12:38:37.166 DEBUG PngImagePlugin - call: STREAM b'tEXt' 1877256 18
+2021-09-14 12:38:37.186 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:38:37] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2021-09-14 12:38:37.226 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:38:37] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 12:38:37.227 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:38:37] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 12:38:37.254 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:38:37] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 12:40:06.179 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/utils/utils.py', reloading
+2021-09-14 12:40:06.688 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:40:09.015 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:40:09.028 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:40:09.082 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-14 12:40:09.082 DEBUG PngImagePlugin - call: STREAM b'bKGD' 41 6
+2021-09-14 12:40:09.082 DEBUG PngImagePlugin - _open: b'bKGD' 41 6 (unknown)
+2021-09-14 12:40:09.082 DEBUG PngImagePlugin - call: STREAM b'IDAT' 59 32768
+2021-09-14 12:40:09.122 DEBUG PngImagePlugin - call: STREAM b'tEXt' 1877256 18
+2021-09-14 12:40:09.166 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:09] "[32mPOST /account HTTP/1.1[0m" 302 -
+2021-09-14 12:40:09.175 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:09] "[35m[1mGET /account HTTP/1.1[0m" 500 -
+2021-09-14 12:40:09.208 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:09] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 12:40:09.208 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:09] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 12:40:09.234 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:09] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 12:40:30.893 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:40:31.410 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:40:33.721 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:40:33.734 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:40:37.348 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:37] "[35m[1mGET /account HTTP/1.1[0m" 500 -
+2021-09-14 12:40:37.387 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:37] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 12:40:37.387 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:37] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 12:40:37.414 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:37] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 12:40:51.334 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 12:40:51.841 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:40:54.213 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:40:54.225 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:40:54.278 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:54] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:40:54.326 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:54] "[33mGET /static/profile_pics/63af1f8bc9e0da81.PNG HTTP/1.1[0m" 404 -
+2021-09-14 12:40:54.337 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:40:59.432 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-14 12:40:59.433 DEBUG PngImagePlugin - call: STREAM b'sRGB' 41 1
+2021-09-14 12:40:59.433 DEBUG PngImagePlugin - call: STREAM b'gAMA' 54 4
+2021-09-14 12:40:59.433 DEBUG PngImagePlugin - call: STREAM b'pHYs' 70 9
+2021-09-14 12:40:59.433 DEBUG PngImagePlugin - call: STREAM b'IDAT' 91 65445
+2021-09-14 12:40:59.465 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:59] "[32mPOST /account HTTP/1.1[0m" 302 -
+2021-09-14 12:40:59.473 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:59] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:40:59.513 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:40:59.515 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:40:59] "[33mGET /static/profile_pics/f1ba22679f7723c0.PNG HTTP/1.1[0m" 404 -
+2021-09-14 12:41:42.956 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/utils/utils.py', reloading
+2021-09-14 12:41:43.458 INFO _internal - _log:  * Restarting with stat
+2021-09-14 12:41:45.772 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 12:41:45.786 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 12:41:46.719 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:41:46] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:41:46.754 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:41:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:41:46.756 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:41:46] "[33mGET /static/profile_pics/f1ba22679f7723c0.PNG HTTP/1.1[0m" 404 -
+2021-09-14 12:41:52.985 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-14 12:41:52.985 DEBUG PngImagePlugin - call: STREAM b'sRGB' 41 1
+2021-09-14 12:41:52.986 DEBUG PngImagePlugin - call: STREAM b'gAMA' 54 4
+2021-09-14 12:41:52.986 DEBUG PngImagePlugin - call: STREAM b'pHYs' 70 9
+2021-09-14 12:41:52.986 DEBUG PngImagePlugin - call: STREAM b'IDAT' 91 65445
+2021-09-14 12:41:53.014 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:41:53] "[32mPOST /account HTTP/1.1[0m" 302 -
+2021-09-14 12:41:53.023 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:41:53] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:41:53.066 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:41:53] "GET /static/profile_pics/ea7c18ddc0f52097.PNG HTTP/1.1" 200 -
+2021-09-14 12:41:53.067 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:41:53] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:42:37.685 INFO routes - logout: User logged out.
+2021-09-14 12:42:37.686 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-14 12:42:37.692 INFO routes - home: App initialized
+2021-09-14 12:42:37.694 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:37] "GET / HTTP/1.1" 200 -
+2021-09-14 12:42:37.752 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:42:37.763 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:37] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 12:42:40.507 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:40] "GET /register HTTP/1.1" 200 -
+2021-09-14 12:42:40.548 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:42:55.701 INFO routes - register: New account created. login: titi.
+2021-09-14 12:42:55.702 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:55] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-14 12:42:55.707 INFO routes - home: App initialized
+2021-09-14 12:42:55.708 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:55] "GET / HTTP/1.1" 200 -
+2021-09-14 12:42:55.758 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:42:55.760 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:55] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 12:42:58.167 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:58] "GET /login HTTP/1.1" 200 -
+2021-09-14 12:42:58.212 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:42:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:43:06.209 INFO routes - login: Logged as: titi@gmail.com.
+2021-09-14 12:43:06.211 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-14 12:43:06.214 INFO routes - home: App initialized
+2021-09-14 12:43:06.216 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:06] "GET / HTTP/1.1" 200 -
+2021-09-14 12:43:06.255 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:43:06.259 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:06] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 12:43:09.834 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:09] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:43:09.882 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:43:09.886 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:09] "GET /static/profile_pics/default.jpg HTTP/1.1" 200 -
+2021-09-14 12:43:20.207 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:20] "[32mPOST /account HTTP/1.1[0m" 302 -
+2021-09-14 12:43:20.215 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:20] "GET /account HTTP/1.1" 200 -
+2021-09-14 12:43:20.258 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:43:20.260 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:20] "GET /static/profile_pics/d3e479a171b4dc49.PNG HTTP/1.1" 200 -
+2021-09-14 12:43:32.510 INFO routes - home: App initialized
+2021-09-14 12:43:32.512 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:32] "GET / HTTP/1.1" 200 -
+2021-09-14 12:43:32.558 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 12:43:32.562 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 12:43:32] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 15:17:23.229 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 15:17:23.798 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:17:26.248 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:17:26.260 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:18:25.925 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-14 15:18:26.444 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:18:28.803 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:18:28.815 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:21:58.936 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-14 15:21:59.455 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:22:01.796 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:22:01.808 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:23:53.557 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-14 15:23:54.055 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:23:56.342 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:23:56.354 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:25:07.420 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-14 15:25:07.937 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:25:10.242 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:25:10.253 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:26:52.158 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 15:26:52.640 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:26:54.933 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:26:54.944 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:27:26.626 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 15:27:27.040 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:27:29.332 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:27:29.345 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:27:36.555 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 15:27:36.948 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:27:39.184 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:27:39.197 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:40:32.859 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 15:40:33.438 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:51:51.125 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 15:51:51.126 INFO _internal - _log:  * Restarting with stat
+2021-09-14 15:51:53.381 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 15:51:53.392 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 15:51:57.003 INFO routes - home: App initialized
+2021-09-14 15:51:57.017 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:51:57] "GET / HTTP/1.1" 200 -
+2021-09-14 15:51:57.065 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:51:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:51:57.076 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:51:57] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 15:51:57.094 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:51:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 15:52:06.541 INFO routes - logout: User logged out.
+2021-09-14 15:52:06.542 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-14 15:52:06.547 INFO routes - home: App initialized
+2021-09-14 15:52:06.548 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:06] "GET / HTTP/1.1" 200 -
+2021-09-14 15:52:06.593 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:52:06.598 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:06] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 15:52:16.658 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:16] "GET /login HTTP/1.1" 200 -
+2021-09-14 15:52:16.708 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:16] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:52:20.779 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-14 15:52:20.780 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-14 15:52:20.784 INFO routes - home: App initialized
+2021-09-14 15:52:20.785 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:20] "GET / HTTP/1.1" 200 -
+2021-09-14 15:52:20.829 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:52:20.833 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:20] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 15:52:23.066 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:23] "GET /account HTTP/1.1" 200 -
+2021-09-14 15:52:23.106 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:52:23.108 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:23] "[36mGET /static/profile_pics/ea7c18ddc0f52097.PNG HTTP/1.1[0m" 304 -
+2021-09-14 15:52:34.594 INFO routes - logout: User logged out.
+2021-09-14 15:52:34.595 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-14 15:52:34.601 INFO routes - home: App initialized
+2021-09-14 15:52:34.602 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:34] "GET / HTTP/1.1" 200 -
+2021-09-14 15:52:34.648 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:34] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:52:34.656 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:34] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 15:52:37.073 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:37] "GET /login HTTP/1.1" 200 -
+2021-09-14 15:52:37.130 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:52:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:53:52.803 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:53:52] "GET /register HTTP/1.1" 200 -
+2021-09-14 15:53:52.853 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:53:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:53:54.750 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:53:54] "GET /login HTTP/1.1" 200 -
+2021-09-14 15:53:54.802 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:53:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:59:16.341 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:16] "GET /login HTTP/1.1" 200 -
+2021-09-14 15:59:16.382 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:16] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-14 15:59:16.441 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 15:59:19.248 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:19] "GET /reset_password HTTP/1.1" 200 -
+2021-09-14 15:59:19.305 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 15:59:28.712 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:28] "[35m[1mPOST /reset_password HTTP/1.1[0m" 500 -
+2021-09-14 15:59:28.754 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:28] "GET /reset_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 15:59:28.754 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:28] "GET /reset_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 15:59:28.774 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 15:59:28] "GET /reset_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 16:06:06.943 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:06:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 16:06:08.168 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:06:08] "[35m[1mPOST /reset_password HTTP/1.1[0m" 500 -
+2021-09-14 16:06:08.209 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:06:08] "GET /reset_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 16:06:08.209 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:06:08] "GET /reset_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 16:06:08.232 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:06:08] "GET /reset_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 16:07:18.302 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 16:07:18.793 INFO _internal - _log:  * Restarting with stat
+2021-09-14 16:07:21.042 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 16:07:21.055 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 16:09:06.969 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 16:09:06.969 INFO _internal - _log:  * Restarting with stat
+2021-09-14 16:09:09.225 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 16:09:09.236 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 16:09:12.567 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:12] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2021-09-14 16:09:12.591 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:12] "GET /login HTTP/1.1" 200 -
+2021-09-14 16:09:12.640 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:09:50.325 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:50] "GET /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTYyODU1MSwiZXhwIjoxNjMxNjMwMzUxfQ.eyJ1c2VyX2lkIjoxfQ.4DEBCR9KL-VUPCbcZ17CWJNFftGrmtUEN6Td5co678ggqIGyjqf_nB5VdtpK7QEDe1dZYq1jmlfBu81wc7yf6Q HTTP/1.1" 200 -
+2021-09-14 16:09:50.430 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:09:55.654 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:55] "[32mPOST /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTYyODU1MSwiZXhwIjoxNjMxNjMwMzUxfQ.eyJ1c2VyX2lkIjoxfQ.4DEBCR9KL-VUPCbcZ17CWJNFftGrmtUEN6Td5co678ggqIGyjqf_nB5VdtpK7QEDe1dZYq1jmlfBu81wc7yf6Q HTTP/1.1[0m" 302 -
+2021-09-14 16:09:55.660 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:55] "GET /login HTTP/1.1" 200 -
+2021-09-14 16:09:55.716 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:09:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:10:19.884 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:19] "POST /login HTTP/1.1" 200 -
+2021-09-14 16:10:19.929 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:19] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-14 16:10:22.379 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-14 16:10:22.380 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-14 16:10:22.383 INFO routes - home: App initialized
+2021-09-14 16:10:22.386 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:22] "GET / HTTP/1.1" 200 -
+2021-09-14 16:10:22.438 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:10:22.446 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:22] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 16:10:46.734 INFO routes - logout: User logged out.
+2021-09-14 16:10:46.735 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-14 16:10:46.740 INFO routes - home: App initialized
+2021-09-14 16:10:46.741 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:46] "GET / HTTP/1.1" 200 -
+2021-09-14 16:10:46.798 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:10:46.804 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:46] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 16:10:49.009 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:49] "GET /login HTTP/1.1" 200 -
+2021-09-14 16:10:49.053 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:10:49] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:11:52.511 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:11:52] "GET /login HTTP/1.1" 200 -
+2021-09-14 16:11:52.574 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:11:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:11:58.270 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-14 16:11:58.271 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:11:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-14 16:11:58.277 INFO routes - home: App initialized
+2021-09-14 16:11:58.279 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:11:58] "GET / HTTP/1.1" 200 -
+2021-09-14 16:11:58.329 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:11:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:11:58.334 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:11:58] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 16:12:02.610 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:02] "GET /account HTTP/1.1" 200 -
+2021-09-14 16:12:02.656 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:12:02.657 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:02] "[36mGET /static/profile_pics/ea7c18ddc0f52097.PNG HTTP/1.1[0m" 304 -
+2021-09-14 16:12:52.509 INFO routes - home: App initialized
+2021-09-14 16:12:52.512 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:52] "GET / HTTP/1.1" 200 -
+2021-09-14 16:12:52.576 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:12:52.588 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:52] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 16:12:55.090 INFO routes - home: App initialized
+2021-09-14 16:12:55.092 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:55] "GET / HTTP/1.1" 200 -
+2021-09-14 16:12:55.131 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:55] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-14 16:12:55.169 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:55] "GET /static/img/main.jpg HTTP/1.1" 200 -
+2021-09-14 16:12:55.199 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 16:12:58.227 INFO routes - logout: User logged out.
+2021-09-14 16:12:58.228 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-14 16:12:58.232 INFO routes - home: App initialized
+2021-09-14 16:12:58.233 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:58] "GET / HTTP/1.1" 200 -
+2021-09-14 16:12:58.285 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:12:58.295 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:58] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 16:12:59.767 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:59] "GET /login HTTP/1.1" 200 -
+2021-09-14 16:12:59.813 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:12:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:13:03.418 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:13:03] "GET /reset_password HTTP/1.1" 200 -
+2021-09-14 16:13:03.467 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:13:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:13:07.641 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:13:07] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2021-09-14 16:13:07.647 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:13:07] "GET /login HTTP/1.1" 200 -
+2021-09-14 16:13:07.696 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:13:07] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:13:59.065 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 16:13:59.559 INFO _internal - _log:  * Restarting with stat
+2021-09-14 16:14:01.936 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 16:14:01.954 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 16:14:04.992 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:14:04] "GET /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTYyODc4NiwiZXhwIjoxNjMxNjMwNTg2fQ.eyJ1c2VyX2lkIjoxfQ.aLxXCbxSJQ1AIomtb797uZbyPvTxpGX35w8p4yxolMknuomUPcKW53MjuCCjHBZo4t3kA7ro6qkkTpjW1B9vxw HTTP/1.1" 200 -
+2021-09-14 16:14:05.065 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:14:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:15:53.793 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-14 16:15:54.342 INFO _internal - _log:  * Restarting with stat
+2021-09-14 16:15:56.745 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 16:15:56.759 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 16:15:59.193 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:15:59] "GET /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTYyODc4NiwiZXhwIjoxNjMxNjMwNTg2fQ.eyJ1c2VyX2lkIjoxfQ.aLxXCbxSJQ1AIomtb797uZbyPvTxpGX35w8p4yxolMknuomUPcKW53MjuCCjHBZo4t3kA7ro6qkkTpjW1B9vxw HTTP/1.1" 200 -
+2021-09-14 16:15:59.297 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:15:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 16:16:08.141 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:16:08] "[32mPOST /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTYyODc4NiwiZXhwIjoxNjMxNjMwNTg2fQ.eyJ1c2VyX2lkIjoxfQ.aLxXCbxSJQ1AIomtb797uZbyPvTxpGX35w8p4yxolMknuomUPcKW53MjuCCjHBZo4t3kA7ro6qkkTpjW1B9vxw HTTP/1.1[0m" 302 -
+2021-09-14 16:16:08.154 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:16:08] "GET /login HTTP/1.1" 200 -
+2021-09-14 16:16:08.208 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 16:16:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -

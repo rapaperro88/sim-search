@@ -113,7 +113,7 @@ def get_similars(full_path:str=None, nb_responses:str="2"):
 def load_model(model_num:int):
 
     # Load embeddings
-    folder = f"../../data_retrieval/model_{model_num}"
+    folder = f"../data_retrieval/model_{model_num}"
     model = keras.models.load_model(folder)
 
     return model

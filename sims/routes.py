@@ -1,14 +1,24 @@
-from sims import app
-import logging
-from flask import render_template, url_for, flash, redirect
+from flask import render_template, url_for, flash, redirect, request
+from sims import app, db, bcrypt
+from sims.forms import RegistrationForm, LoginForm
+from sims.models import User
 
+from flask_login import login_user, current_user, logout_user, login_required
+
+from werkzeug.utils import secure_filename
+import logging
 # Custom utils
 import sys
 sys.path.append('./sims/utils')
 import inference_utils
 import utils
-from sims.forms import RegistrationForm, LoginForm
-from sims.models import User
+import os
+
+
+if len([f for f in os.listdir("./") if f.endswith("db")]) == 0:
+    db.create_all()
+
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 # Blog-like content for options used
 options = [
@@ -27,28 +37,6 @@ options = [
         'url_name': 'tri',
     },
 ]
-
-
-# class User(db.Model):
-#     id = db.Column(db.Integer, primary_key=True)
-#     username = db.Column(db.String(100), unique=True, nullable=False)
-#     email = db.Column(db.String(120), unique=True, nullable=False)
-#     password = db.Column(db.String(60), nullable=False)
-#
-#     def __repr__(self):
-#         return f"User('{self.username}', '{self.email}', '{self.image_file}')"
-
-
-# class Post(db.Model):
-#     id = db.Column(db.Integer, primary_key=True)
-#     title = db.Column(db.String(100), nullable=False)
-#     date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-#     content = db.Column(db.Text, nullable=False)
-#     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-#
-#     def __repr__(self):
-#         return f"Post('{self.title}', '{self.date_posted}')"
-
 
 
 # -----------------------------------------------------------------
@@ -75,27 +63,48 @@ def main():
 # ----------------------- Register + Login ------------------------
 @app.route("/register", methods=['GET', 'POST'])
 def register():
+    if current_user.is_authenticated:
+        return redirect("/")
     form = RegistrationForm()
     if form.validate_on_submit():
-        # TODO: Database insertion
+        hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+        user = User(username=form.username.data, email=form.email.data, password=hashed_password)
+        db.session.add(user)
+        db.session.commit()
         flash(f'Le compte pour {form.username.data} a bien été crée!', 'success')
         logging.info(f"New account created. login: {form.username.data}.")
-        return redirect(url_for('home'))
-    return render_template('register.html', title='Register', form=form)
+        return redirect("/")
+    return render_template('register.html', title="S'inscrire", form=form)
+
+
 
 
 @app.route("/login", methods=['GET', 'POST'])
 def login():
+    if current_user.is_authenticated:
+        return redirect("/")
     form = LoginForm()
     if form.validate_on_submit():
-        # TODO: replace by SQL validation
-        if form.email.data == 'admin@blog.com' and form.password.data == 'password':
-            flash('You have been logged in!', 'success')
-            return redirect(url_for('home'))
+        user = User.query.filter_by(email=form.email.data).first()
+        if user and bcrypt.check_password_hash(user.password, form.password.data):
+            login_user(user, remember=form.remember.data)
+            next_page = request.args.get('next')
+            return redirect(next_page) if next_page else redirect("/")
         else:
-            flash('Login Unsuccessful. Please check username and password', 'danger')
-    return render_template('login.html', title='Login', form=form)
+            flash("Connexion refusée. Veillez vérifier le nom d'utilisateur et le mot de passe", 'danger')
+    return render_template('login.html', title='Connexion', form=form)
 
+
+@app.route("/logout")
+def logout():
+    logout_user()
+    return redirect("/")
+
+
+@app.route("/account")
+@login_required
+def account():
+    return render_template('account.html', title='Mon compte')
 
 
 # -----------------------------------------------------------------

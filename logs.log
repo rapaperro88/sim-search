@@ -148,3 +148,741 @@
 2021-09-13 16:54:11.931 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:54:11] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
 2021-09-13 16:54:17.736 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:54:17] "POST /login HTTP/1.1" 200 -
 2021-09-13 16:54:17.779 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:54:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-13 16:59:11.903 INFO routes - home: App initialized
+2021-09-13 16:59:11.917 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-09-13 16:59:11.961 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 16:59:11.962 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 16:59:11.981 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 16:59:35.958 INFO routes - home: App initialized
+2021-09-13 16:59:35.962 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:35] "GET / HTTP/1.1" 200 -
+2021-09-13 16:59:35.986 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-13 16:59:36.005 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:36] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-13 16:59:39.979 INFO routes - home: App initialized
+2021-09-13 16:59:39.980 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:39] "GET / HTTP/1.1" 200 -
+2021-09-13 16:59:40.017 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-13 16:59:40.023 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:40] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-13 16:59:40.804 INFO routes - main: Entering home endpoint
+2021-09-13 16:59:40.805 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:40] "GET /main HTTP/1.1" 200 -
+2021-09-13 16:59:40.841 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-13 16:59:44.381 INFO routes - simil: Similar images selected
+2021-09-13 16:59:44.385 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:44] "[35m[1mGET /simil%7D HTTP/1.1[0m" 500 -
+2021-09-13 16:59:44.418 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:44] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 16:59:44.418 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:44] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 16:59:44.441 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:44] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 16:59:46.797 INFO routes - tri: Sort images selected
+2021-09-13 16:59:46.801 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:46] "[35m[1mGET /tri%7D HTTP/1.1[0m" 500 -
+2021-09-13 16:59:46.841 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:46] "GET /tri%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 16:59:46.841 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:46] "GET /tri%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 16:59:46.868 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 16:59:46] "GET /tri%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:01:17.134 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:01:17] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2021-09-13 17:01:17.179 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:01:17] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:01:17.179 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:01:17] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:01:17.198 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:01:17] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:02:16.917 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:16] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2021-09-13 17:02:16.935 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:16] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:02:16.936 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:16] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:02:16.972 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:16] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:02:19.858 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:19] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-09-13 17:02:19.894 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:19] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:02:19.894 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:19] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:02:19.913 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:02:19] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:03:53.243 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-13 17:03:53.638 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:03:54.673 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:03:54.819 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:03:54.820 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:03:54.821 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:03:54.821 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:03:55.994 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:03:56.002 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:04:18.517 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-13 17:04:18.884 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:04:19.914 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:04:20.047 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:04:20.047 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:04:20.047 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:04:20.047 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:04:21.144 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:04:21.152 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:04:32.431 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-13 17:04:32.813 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:04:33.851 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:04:33.995 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:04:33.996 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:04:33.997 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:04:33.997 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:04:35.232 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:04:35.241 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:06:33.870 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-13 17:06:34.259 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:06:35.254 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:06:35.383 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:06:35.385 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:06:35.385 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:06:35.386 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:06:36.500 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:06:36.508 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:06:42.676 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-13 17:06:43.076 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:06:44.083 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:06:44.261 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:06:44.261 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:06:44.261 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:06:44.261 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:06:45.382 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:06:45.391 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:07:09.146 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-13 17:07:09.660 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:07:10.692 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:07:10.831 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:07:10.832 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:07:10.833 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:07:10.833 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:07:11.968 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:07:11.977 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:07:12.013 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:07:12] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-09-13 17:07:12.053 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:07:12] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:07:12.053 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:07:12] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:07:12.078 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:07:12] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:10:33.803 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-13 17:10:34.324 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:10:35.326 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:10:35.458 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:10:35.459 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:10:35.459 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:10:35.460 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:10:36.619 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:10:36.628 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:10:36.662 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:36] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2021-09-13 17:10:36.703 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:36] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:10:36.706 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:36] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:10:36.725 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:36] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:10:37.989 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:37] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-09-13 17:10:38.025 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:38] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:10:38.025 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:38] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:10:38.051 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:10:38] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:11:25.149 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-13 17:11:25.646 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:11:26.696 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:11:26.828 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:11:26.829 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:11:26.830 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:11:26.830 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:11:27.985 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:11:27.995 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:11:44.564 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-13 17:11:45.105 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:11:46.116 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:11:46.247 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:11:46.248 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:11:46.248 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:11:46.249 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:11:47.356 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:11:47.366 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:12:11.249 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-13 17:12:11.758 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:12:12.775 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:12:12.909 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:12:12.910 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:12:12.911 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:12:12.912 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:12:14.068 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:12:14.079 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:12:29.634 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-13 17:12:30.151 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:12:31.359 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:12:31.507 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:12:31.507 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:12:31.507 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:12:31.507 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:12:32.744 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:12:32.756 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:13:10.959 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-13 17:13:11.449 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:13:12.558 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:13:12.652 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:13:12.652 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:13:12.652 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:13:12.652 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:13:13.795 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:13:13.805 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:13:37.682 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-13 17:13:38.173 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:13:39.289 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:13:39.381 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:13:39.382 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:13:39.382 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:13:39.382 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:13:40.534 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:13:40.544 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:13:46.793 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-13 17:13:47.308 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:13:48.383 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:13:48.476 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:13:48.477 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:13:48.478 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:13:48.479 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:13:49.605 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:13:49.615 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:15:52.418 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-13 17:15:52.961 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:15:54.045 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:15:54.138 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:15:54.139 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:15:54.140 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:15:54.141 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:15:55.275 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:15:55.284 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:18:08.740 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-13 17:18:09.222 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:18:10.304 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:18:10.398 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:18:10.399 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:18:10.399 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:18:10.400 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:18:11.510 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:18:11.519 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:21:09.588 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-13 17:21:10.106 INFO _internal - _log:  * Restarting with stat
+2021-09-13 17:21:11.219 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-13 17:21:11.312 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:21:11.313 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:21:11.313 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-13 17:21:11.314 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-13 17:21:12.480 WARNING _internal - _log:  * Debugger is active!
+2021-09-13 17:21:12.492 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-13 17:21:19.027 INFO routes - home: App initialized
+2021-09-13 17:21:19.036 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:19] "GET / HTTP/1.1" 200 -
+2021-09-13 17:21:19.079 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-13 17:21:19.087 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:19] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-13 17:21:21.690 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:21] "GET /login HTTP/1.1" 200 -
+2021-09-13 17:21:21.734 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-13 17:21:27.525 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:27] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-13 17:21:27.567 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:27] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:21:27.567 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:27] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:21:27.588 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:21:27] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-13 17:22:41.807 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:22:41] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-13 17:22:41.850 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:22:41] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-13 17:22:41.850 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:22:41] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-13 17:22:41.879 INFO _internal - _log: 127.0.0.1 - - [13/Sep/2021 17:22:41] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:08:35.365 INFO csrf - validate_csrf_token: The CSRF token has expired.
+2021-09-14 09:08:35.367 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:35] "POST /login HTTP/1.1" 200 -
+2021-09-14 09:08:35.415 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:08:40.027 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:40] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 09:08:40.070 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:40] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:08:40.072 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:40] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:08:40.092 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:40] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:08:46.831 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:46] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 09:08:46.885 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:46] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:08:46.885 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:46] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:08:46.913 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:08:46] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:11:26.016 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 09:11:26.059 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:26] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:11:26.059 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:26] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:11:26.081 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:26] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:11:37.439 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:37] "GET /register HTTP/1.1" 200 -
+2021-09-14 09:11:37.492 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:11:47.876 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:47] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 09:11:47.920 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:47] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:11:47.920 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:47] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:11:47.955 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:11:47] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:23:25.332 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 09:23:25.806 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:23:26.952 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:23:27.045 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:23:27.046 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:23:27.047 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:23:27.047 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:23:28.138 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 09:23:28.149 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 09:27:48.792 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 09:27:49.259 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:27:50.351 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:27:50.441 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:27:50.442 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:27:50.443 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:27:50.443 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:27:51.628 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 09:27:51.641 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 09:27:52.348 INFO routes - home: App initialized
+2021-09-14 09:27:52.360 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:27:52] "GET / HTTP/1.1" 200 -
+2021-09-14 09:27:52.415 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:27:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:27:52.430 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:27:52] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 09:27:52.447 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:27:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 09:28:13.779 INFO routes - main: Entering home endpoint
+2021-09-14 09:28:13.783 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:13] "GET /main HTTP/1.1" 200 -
+2021-09-14 09:28:13.833 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:13] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:28:15.910 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:15] "GET /login HTTP/1.1" 200 -
+2021-09-14 09:28:15.967 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:15] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:28:18.513 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:18] "GET /register HTTP/1.1" 200 -
+2021-09-14 09:28:18.564 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:28:26.494 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:26] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 09:28:26.537 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:26] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:28:26.538 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:26] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:28:26.558 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:28:26] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:29:53.687 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 09:29:54.187 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:29:55.263 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:29:55.355 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:29:55.356 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:29:55.356 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:29:55.357 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:29:56.437 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 09:29:56.449 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 09:30:31.670 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 09:30:32.185 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:30:33.321 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:30:33.411 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:30:33.412 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:30:33.412 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:30:33.413 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:30:34.505 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 09:30:34.516 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 09:30:40.773 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 09:30:41.293 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:31:38.878 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:31:38.971 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:31:38.972 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:31:38.972 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:31:38.973 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:31:40.106 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 09:31:40.106 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:32:14.611 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:32:14.705 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:32:14.705 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:32:14.705 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:32:14.705 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:32:15.800 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 09:32:15.800 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:42:24.013 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:42:24.103 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:42:24.104 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:42:24.105 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:42:24.105 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:42:25.190 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 09:42:25.191 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:42:26.255 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-14 09:42:26.345 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:42:26.346 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:42:26.347 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-14 09:42:26.348 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-14 09:42:27.429 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 09:42:27.440 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 09:43:19.492 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:19] "POST /register HTTP/1.1" 200 -
+2021-09-14 09:43:19.542 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:43:26.685 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:26] "POST /register HTTP/1.1" 200 -
+2021-09-14 09:43:26.734 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:43:29.203 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:29] "GET /login HTTP/1.1" 200 -
+2021-09-14 09:43:29.263 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:43:34.218 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:34] "POST /login HTTP/1.1" 200 -
+2021-09-14 09:43:34.263 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:34] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:43:36.398 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:36] "GET /register HTTP/1.1" 200 -
+2021-09-14 09:43:36.452 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:43:36] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:44:56.653 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:44:56] "POST /register HTTP/1.1" 200 -
+2021-09-14 09:44:56.703 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:44:56] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:45:07.982 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:45:07] "POST /register HTTP/1.1" 200 -
+2021-09-14 09:45:08.034 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:45:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:45:52.139 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:45:52] "POST /register HTTP/1.1" 200 -
+2021-09-14 09:45:52.185 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:45:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:46:15.284 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:46:15] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 09:46:15.334 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:46:15] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:46:15.334 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:46:15] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:46:15.365 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:46:15] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:50:15.049 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 09:50:15.529 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:55:16.168 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 09:55:16.168 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:55:18.451 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 09:55:18.462 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 09:55:21.539 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:55:21] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 09:55:21.585 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:55:21] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:55:21.585 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:55:21] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:55:21.617 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:55:21] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:57:56.062 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 09:57:56.063 INFO _internal - _log:  * Restarting with stat
+2021-09-14 09:57:58.362 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 09:57:58.373 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 09:57:58.425 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:57:58] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 09:57:58.467 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:57:58] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:57:58.467 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:57:58] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:57:58.487 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:57:58] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 09:58:01.691 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:01] "GET /register HTTP/1.1" 200 -
+2021-09-14 09:58:01.731 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:01] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 09:58:04.089 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:04] "GET /register HTTP/1.1" 200 -
+2021-09-14 09:58:04.131 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:04] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-14 09:58:04.213 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 09:58:20.934 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:20] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 09:58:20.990 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:20] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 09:58:20.990 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:20] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 09:58:21.018 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 09:58:21] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:03:47.283 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-14 10:03:47.776 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:03:50.070 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:03:50.081 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:05:45.763 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 10:05:46.253 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:05:48.528 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:05:48.539 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:05:50.843 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:05:50] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 10:05:50.880 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:05:50] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:05:50.881 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:05:50] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:05:50.903 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:05:50] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:08:38.987 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 10:08:39.497 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:08:45.574 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:08:45.575 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:08:47.802 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:08:47.813 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:08:48.497 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:08:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 10:08:52.480 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:08:52] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 10:08:52.515 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:08:52] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:08:52.515 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:08:52] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:08:52.546 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:08:52] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:09:59.086 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 10:09:59.608 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:10:04.414 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:10:04.414 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:10:06.680 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:10:06.694 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:10:12.311 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:12] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 10:10:12.347 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:12] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:10:12.347 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:12] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:10:12.379 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:12] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:10:27.374 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:27] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 10:10:27.409 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:27] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:10:27.409 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:27] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:10:27.433 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:10:27] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:27:24.471 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:27:24.471 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:27:26.755 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:27:26.766 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:27:31.408 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:31] "[33mGET /home HTTP/1.1[0m" 404 -
+2021-09-14 10:27:34.632 INFO routes - home: App initialized
+2021-09-14 10:27:34.646 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:34] "GET / HTTP/1.1" 200 -
+2021-09-14 10:27:34.700 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:34] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 10:27:34.707 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:34] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 10:27:36.676 INFO routes - main: Entering home endpoint
+2021-09-14 10:27:36.679 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:36] "GET /main HTTP/1.1" 200 -
+2021-09-14 10:27:36.727 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:36] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 10:27:38.167 INFO routes - simil: Similar images selected
+2021-09-14 10:27:38.167 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-14 10:27:38.170 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:38] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-14 10:27:38.210 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:38] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 10:27:40.831 INFO routes - simil: Similar images selected
+2021-09-14 10:27:40.831 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-14 10:27:40.833 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:40] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-14 10:27:40.881 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:27:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 10:28:00.595 INFO routes - simil: Similar images selected
+2021-09-14 10:28:00.597 INFO routes - simil: Post method allowed.
+2021-09-14 10:28:00.603 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:28:00] "[35m[1mPOST /simil%7D HTTP/1.1[0m" 500 -
+2021-09-14 10:28:00.645 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:28:00] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:28:00.646 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:28:00] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:28:00.672 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:28:00] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:29:03.655 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 10:29:04.161 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:31:30.807 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:31:30.808 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:31:33.047 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:31:33.060 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:31:33.097 INFO routes - simil: Similar images selected
+2021-09-14 10:31:33.098 INFO routes - simil: Post method allowed.
+2021-09-14 10:31:33.104 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:31:33] "[35m[1mPOST /simil%7D HTTP/1.1[0m" 500 -
+2021-09-14 10:31:33.157 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:31:33] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:31:33.157 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:31:33] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:31:33.181 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:31:33] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:33:40.073 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 10:33:40.591 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:33:42.921 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:33:42.933 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:33:42.963 INFO routes - simil: Similar images selected
+2021-09-14 10:33:42.964 INFO routes - simil: Post method allowed.
+2021-09-14 10:33:42.969 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:33:42] "[35m[1mPOST /simil%7D HTTP/1.1[0m" 500 -
+2021-09-14 10:33:43.001 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:33:43] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:33:43.002 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:33:43] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:33:43.021 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:33:43] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:34:03.583 INFO routes - simil: Similar images selected
+2021-09-14 10:34:03.583 INFO routes - simil: Post method allowed.
+2021-09-14 10:34:03.587 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:03] "[35m[1mPOST /simil%7D HTTP/1.1[0m" 500 -
+2021-09-14 10:34:03.627 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:03] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:34:03.628 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:03] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:34:03.649 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:03] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:34:08.333 INFO routes - simil: Similar images selected
+2021-09-14 10:34:08.334 INFO routes - simil: Post method allowed.
+2021-09-14 10:34:08.338 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:08] "[35m[1mPOST /simil%7D HTTP/1.1[0m" 500 -
+2021-09-14 10:34:08.380 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:34:08.380 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:34:08.405 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:34:10.773 INFO routes - simil: Similar images selected
+2021-09-14 10:34:10.776 INFO routes - simil: Post method allowed.
+2021-09-14 10:34:10.783 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:10] "[35m[1mPOST /simil%7D HTTP/1.1[0m" 500 -
+2021-09-14 10:34:10.818 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:10] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:34:10.819 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:10] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:34:10.844 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:10] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:34:32.392 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 10:34:32.878 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:34:35.158 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:34:35.170 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:34:37.011 INFO routes - simil: Similar images selected
+2021-09-14 10:34:37.012 INFO routes - simil: Post method allowed.
+2021-09-14 10:34:37.017 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:37] "[35m[1mPOST /simil%7D HTTP/1.1[0m" 500 -
+2021-09-14 10:34:37.055 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:37] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:34:37.055 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:37] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:34:37.082 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:34:37] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:35:32.007 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:35:32.493 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:35:34.770 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:35:34.781 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:35:35.517 INFO routes - simil: Similar images selected
+2021-09-14 10:35:35.518 INFO routes - simil: Post method allowed.
+2021-09-14 10:35:35.519 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-14 10:35:35.520 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:35:35] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-14 10:35:35.531 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:35:35] "[35m[1mGET /simil_pred?filename=cheval_1.PNG&nb_responses=10 HTTP/1.1[0m" 500 -
+2021-09-14 10:35:35.581 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:35:35] "GET /simil_pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:35:35.582 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:35:35] "GET /simil_pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:35:35.603 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:35:35] "GET /simil_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:36:49.071 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/utils/inference_utils.py', reloading
+2021-09-14 10:36:49.590 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:36:51.953 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:36:51.966 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:36:52.005 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:52] "[35m[1mGET /simil_pred?filename=cheval_1.PNG&nb_responses=10 HTTP/1.1[0m" 500 -
+2021-09-14 10:36:52.046 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:52] "GET /simil_pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:36:52.047 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:52] "GET /simil_pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:36:52.065 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:52] "GET /simil_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:36:56.812 INFO routes - simil: Similar images selected
+2021-09-14 10:36:56.813 INFO routes - simil: Post method allowed.
+2021-09-14 10:36:56.813 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-14 10:36:56.814 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:56] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-14 10:36:56.825 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:56] "[35m[1mGET /simil_pred?filename=cheval_1.PNG&nb_responses=10 HTTP/1.1[0m" 500 -
+2021-09-14 10:36:56.872 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:56] "GET /simil_pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:36:56.873 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:56] "GET /simil_pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:36:56.891 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:36:56] "GET /simil_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:37:26.049 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/utils/inference_utils.py', reloading
+2021-09-14 10:37:26.538 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:37:28.838 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:37:28.850 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:37:31.725 INFO routes - simil: Similar images selected
+2021-09-14 10:37:31.726 INFO routes - simil: Post method allowed.
+2021-09-14 10:37:31.726 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-14 10:37:31.727 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:31] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-14 10:37:37.262 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:37] "GET /simil_pred?filename=cheval_1.PNG&nb_responses=10 HTTP/1.1" 200 -
+2021-09-14 10:37:37.322 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:37] "[33mGET /sims/static/img/cheval_1.PNG HTTP/1.1[0m" 404 -
+2021-09-14 10:37:37.325 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 10:37:55.410 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:55] "GET /login HTTP/1.1" 200 -
+2021-09-14 10:37:55.464 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 10:37:59.471 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:59] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 10:37:59.510 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:59] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:37:59.511 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:59] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:37:59.532 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:37:59] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:41:46.103 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:41:47.286 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:41:49.606 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:41:49.618 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:41:54.937 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:41:54.938 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:41:57.162 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:41:57.173 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:42:00.287 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 10:42:00.338 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:00] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:42:00.338 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:00] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:42:00.367 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:42:18.748 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:42:18.748 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:42:21.067 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:42:21.079 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:42:26.179 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 10:42:26.223 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:26] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:42:26.224 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:26] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:42:26.254 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:42:26] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 10:42:41.741 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:42:42.247 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:42:44.498 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:42:44.511 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:49:27.063 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:49:27.559 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:49:46.742 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:49:46.742 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:49:49.043 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:49:49.056 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:51:13.560 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:51:13.560 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:51:15.778 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:51:15.790 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:52:50.743 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:52:51.229 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:53:03.359 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:53:03.360 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:53:05.651 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:53:05.662 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:54:35.779 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:54:36.301 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:54:38.612 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:54:38.624 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:55:05.009 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:55:05.010 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:55:07.231 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:55:07.242 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:55:32.052 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:55:32.543 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:55:34.900 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:55:34.912 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:55:42.173 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:55:42.668 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:55:45.057 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:55:45.069 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:56:29.704 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 10:56:30.187 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:56:32.418 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:56:32.430 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:58:46.777 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 10:58:47.270 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:58:53.387 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 10:58:53.387 INFO _internal - _log:  * Restarting with stat
+2021-09-14 10:58:55.642 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 10:58:55.654 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 10:58:58.157 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:58:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-14 10:58:58.196 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:58:58] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 10:58:58.196 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:58:58] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 10:58:58.215 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 10:58:58] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 11:00:31.580 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:00:31] "POST /login HTTP/1.1" 200 -
+2021-09-14 11:00:31.620 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:00:31] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:03:21.679 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 11:03:22.181 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:04:16.213 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:04:16.214 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:04:18.425 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:04:18.438 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:04:44.294 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 11:04:44.793 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:05:12.269 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:05:12.269 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:07:21.396 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:07:21.397 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:07:23.607 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:07:23.619 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:07:43.330 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-14 11:07:43.818 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:08:10.087 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:08:10.088 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:08:12.340 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:08:12.352 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:08:17.859 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:08:17] "GET /register HTTP/1.1" 200 -
+2021-09-14 11:08:17.902 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:08:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:08:28.178 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:08:28] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-14 11:08:28.221 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:08:28] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-14 11:08:28.221 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:08:28] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-14 11:08:28.242 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:08:28] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-14 11:12:13.381 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:12:13.382 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:12:15.701 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:12:15.712 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:13:00.625 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:13:00.626 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:13:02.900 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:13:02.912 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:15:22.064 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 11:15:22.617 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:20:50.431 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:20:50.432 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:22:22.029 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:22:22.030 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:22:24.580 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:22:24.592 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:22:37.926 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:22:37.927 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:22:40.509 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:22:40.521 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:25:23.637 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 11:25:24.143 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:25:26.688 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:25:26.699 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:25:57.883 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 11:25:58.381 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:26:04.288 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:26:04.288 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:26:06.801 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:26:06.813 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:26:58.099 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:26:58.099 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:39:00.368 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:39:00.368 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:39:02.661 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:39:02.671 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:39:43.193 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-14 11:39:43.698 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:39:48.140 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:39:48.141 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:39:50.449 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:39:50.459 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:40:22.187 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:40:22.187 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:40:24.533 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:40:24.543 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:41:01.895 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/utils/utils.py', reloading
+2021-09-14 11:41:02.402 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:41:04.730 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:41:04.741 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:41:12.014 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/routes.py', reloading
+2021-09-14 11:41:12.533 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:41:14.881 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:41:14.891 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:41:14.921 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:41:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 11:41:21.519 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:41:21] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:41:21.569 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:41:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:41:31.611 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:41:31] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:41:31.665 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:41:31] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-14 11:41:39.556 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:41:39] "GET /register HTTP/1.1" 200 -
+2021-09-14 11:41:39.625 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:41:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:42:09.865 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:42:09] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:42:09.911 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:42:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:42:12.865 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:42:12] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:42:12.913 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:42:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:43:53.299 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:43:53] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:43:53.350 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:43:53] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:44:18.467 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:18] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:44:18.513 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:44:19.497 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:19] "GET /login HTTP/1.1" 200 -
+2021-09-14 11:44:19.556 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:44:27.802 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:27] "GET /login HTTP/1.1" 200 -
+2021-09-14 11:44:27.843 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:27] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:44:30.736 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:30] "GET /register HTTP/1.1" 200 -
+2021-09-14 11:44:30.789 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:44:39.908 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:39] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:44:39.948 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:44:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:46:08.267 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:08] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:46:08.315 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:46:17.312 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:17] "GET /login HTTP/1.1" 200 -
+2021-09-14 11:46:17.356 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:46:21.020 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:21] "POST /login HTTP/1.1" 200 -
+2021-09-14 11:46:21.060 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:46:29.323 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:29] "GET /register HTTP/1.1" 200 -
+2021-09-14 11:46:29.380 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:46:38.725 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:38] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:46:38.768 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:46:38] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:47:03.453 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-14 11:47:03.453 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:47:05.727 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:47:05.737 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:47:06.722 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:47:06] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:47:06.763 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:47:06] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-14 11:47:06.861 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:47:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-14 11:47:19.979 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:47:19] "POST /register HTTP/1.1" 200 -
+2021-09-14 11:47:20.035 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:47:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:49:38.187 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/forms.py', reloading
+2021-09-14 11:49:38.714 INFO _internal - _log:  * Restarting with stat
+2021-09-14 11:49:41.077 WARNING _internal - _log:  * Debugger is active!
+2021-09-14 11:49:41.091 INFO _internal - _log:  * Debugger PIN: 128-083-838
+2021-09-14 11:49:41.385 INFO routes - register: New account created. login: Andrés.
+2021-09-14 11:49:41.386 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:49:41] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-14 11:49:41.391 INFO routes - home: App initialized
+2021-09-14 11:49:41.399 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:49:41] "GET / HTTP/1.1" 200 -
+2021-09-14 11:49:41.448 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:49:41] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:49:41.457 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:49:41] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 11:50:00.419 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:00] "GET /login HTTP/1.1" 200 -
+2021-09-14 11:50:00.477 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:50:04.498 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-14 11:50:04.502 INFO routes - home: App initialized
+2021-09-14 11:50:04.505 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:04] "GET / HTTP/1.1" 200 -
+2021-09-14 11:50:04.546 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-14 11:50:04.550 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:04] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-14 11:50:23.301 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:23] "GET /account HTTP/1.1" 200 -
+2021-09-14 11:50:23.349 INFO _internal - _log: 127.0.0.1 - - [14/Sep/2021 11:50:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -

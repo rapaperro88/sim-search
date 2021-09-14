@@ -27,13 +27,18 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
               <a class="nav-item nav-link" href="/">Home</a>
-              <a class="nav-item nav-link" href="/main">Recherches</a>
-              <a class="nav-item nav-link" href="/about">Projet</a>
+              <a class="nav-item nav-link" href="{{ url_for('main') }}">Recherches</a>
+              <a class="nav-item nav-link" href="{{ url_for('about') }}">Projet</a>
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="/login">Connexion</a>
-              <a class="nav-item nav-link" href="/register">S'inscrire</a>
+                {% if current_user.is_authenticated %}
+                    <a class="nav-item nav-link" href="{{ url_for('account') }}">Account</a>
+                    <a class="nav-item nav-link" href="{{ url_for('logout') }}">Logout</a>
+                {% else %}
+                    <a class="nav-item nav-link" href="{{ url_for('login') }}">Connexion</a>
+                    <a class="nav-item nav-link" href="{{ url_for('register') }}">S'inscrire</a>
+                {% endif %}
             </div>
           </div>
         </div>

@@ -1,15 +1,16 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    {% for post in posts %}
+    {% for field in posts %}
         <article class="media content-section">
           <div class="media-body" >
             <div class="article-metadata">
-              <a class="mr-2" >{{ post.tete }}</a>
-              <small class="text-muted">{{ post.sous_titre }}</small>
+              <a class="mr-2" >{{ field.tete }}</a>
+              <small class="text-muted">{{ field.sous_titre }}</small>
             </div>
-            <h2><a class="article-title-with-link" href="{{ url_for(post.url_name) }}">{{ post.title }}</a></h2>
-            <p class="article-content">{{ post.content }}</p>
+<!--            <h2><a class="article-title-with-link" href="inference.simil">{{ field.title }}</a></h2>-->
+            <h2><a class="article-title-with-link" href="{{ url_for(field.url_name) }}">{{ field.title }}</a></h2>
+            <p class="article-content">{{ field.content }}</p>
           </div>
         </article>
     {% endfor %}

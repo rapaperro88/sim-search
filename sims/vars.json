@@ -1,0 +1,19 @@
+{
+    "options": [
+        {
+            "tete": "Option 1",
+            "title": "Images Similaires",
+            "content": "Téléchargez une image et obtenez des images similaires",
+            "sous_titre": "Recherche par similarité",
+            "url_name": "inference.simil"
+        },
+        {
+            "tete": "Option 2",
+            "title": "Tri d'images",
+            "content": "Avez vous un dossier avec des images en vrac ? \nNous le trions pour vous",
+            "sous_titre": "Tri d'images dans un dossier",
+            "url_name": "inference.tri"
+        }
+    ],
+    "allowed_extensions": ["png", "jpg", "jpeg", "gif"]
+}

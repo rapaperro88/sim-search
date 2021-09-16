@@ -21,9 +21,5 @@ def about():
 
 @main.route("/main_page")
 def main_page():
-    print()
-    for p in  options:
-        print(p["url_name"])
-        print()
     logging.info("Entering home endpoint")
     return render_template('main.html', posts=options)

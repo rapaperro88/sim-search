@@ -1622,3 +1622,1796 @@
 2021-09-15 13:00:57.216 INFO routes - main_page: Entering home endpoint
 2021-09-15 13:00:57.222 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 13:00:57] "GET /main_page HTTP/1.1" 200 -
 2021-09-15 13:00:57.271 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 13:00:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:37:36.520 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/config.py', reloading
+2021-09-15 14:37:37.147 INFO _internal - _log:  * Restarting with stat
+2021-09-15 14:37:39.935 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 14:37:39.950 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 14:38:11.795 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/config.py', reloading
+2021-09-15 14:38:12.405 INFO _internal - _log:  * Restarting with stat
+2021-09-15 14:38:15.183 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 14:38:15.196 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 14:39:53.802 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/config.py', reloading
+2021-09-15 14:39:54.431 INFO _internal - _log:  * Restarting with stat
+2021-09-15 14:39:57.098 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 14:39:57.111 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 14:55:22.534 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:22] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-09-15 14:55:22.593 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:22] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-15 14:55:22.594 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:22] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-15 14:55:22.616 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:22] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-15 14:55:38.240 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-15 14:55:38.722 INFO _internal - _log:  * Restarting with stat
+2021-09-15 14:55:41.091 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 14:55:41.104 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 14:55:41.151 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:41] "[32mGET /reset_password HTTP/1.1[0m" 302 -
+2021-09-15 14:55:44.687 INFO routes - logout: User logged out.
+2021-09-15 14:55:44.688 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-15 14:55:44.693 INFO routes - home: App initialized
+2021-09-15 14:55:44.703 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:44] "GET /home HTTP/1.1" 200 -
+2021-09-15 14:55:44.758 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:55:44.760 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:44] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-15 14:55:46.732 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:46] "GET /login HTTP/1.1" 200 -
+2021-09-15 14:55:46.777 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:55:47.994 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:47] "GET /reset_password HTTP/1.1" 200 -
+2021-09-15 14:55:48.039 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:55:52.601 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:52] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2021-09-15 14:55:52.611 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:52] "GET /login HTTP/1.1" 200 -
+2021-09-15 14:55:52.660 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:55:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:56:58.043 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:56:58] "GET /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTcxMDU1MSwiZXhwIjoxNjMxNzEyMzUxfQ.eyJ1c2VyX2lkIjoxfQ.bECZzh0Y0IWcV2MAU1-PFXtxSd_Yey91WgoXMa3X49iBbbjcU2PXIucvJmuUf6CNaSZeEWjm7wPnosi0Fk4GqA HTTP/1.1" 200 -
+2021-09-15 14:56:58.240 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:56:58] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-15 14:57:02.577 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:02] "[32mPOST /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTcxMDU1MSwiZXhwIjoxNjMxNzEyMzUxfQ.eyJ1c2VyX2lkIjoxfQ.bECZzh0Y0IWcV2MAU1-PFXtxSd_Yey91WgoXMa3X49iBbbjcU2PXIucvJmuUf6CNaSZeEWjm7wPnosi0Fk4GqA HTTP/1.1[0m" 302 -
+2021-09-15 14:57:02.584 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:02] "GET /login HTTP/1.1" 200 -
+2021-09-15 14:57:02.836 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:57:17.041 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-15 14:57:17.043 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-15 14:57:17.048 INFO routes - home: App initialized
+2021-09-15 14:57:17.050 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:17] "GET /home HTTP/1.1" 200 -
+2021-09-15 14:57:17.110 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:57:17.113 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:17] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-15 14:57:17.843 INFO routes - main_page: Entering home endpoint
+2021-09-15 14:57:17.849 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:17] "GET /main_page HTTP/1.1" 200 -
+2021-09-15 14:57:17.920 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:57:18.860 INFO routes - simil: Similar images selected
+2021-09-15 14:57:18.860 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-15 14:57:18.865 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:18] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-15 14:57:18.913 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:57:24.990 INFO routes - simil: Similar images selected
+2021-09-15 14:57:24.993 INFO routes - simil: Post method allowed.
+2021-09-15 14:57:24.994 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-15 14:57:24.994 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:24] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-15 14:57:27.456 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-15 14:57:27.456 DEBUG PngImagePlugin - call: STREAM b'sBIT' 41 4
+2021-09-15 14:57:27.456 DEBUG PngImagePlugin - _open: b'sBIT' 41 4 (unknown)
+2021-09-15 14:57:27.456 DEBUG PngImagePlugin - call: STREAM b'tEXt' 57 25
+2021-09-15 14:57:27.457 DEBUG PngImagePlugin - call: STREAM b'IDAT' 94 8192
+2021-09-15 14:57:29.281 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:29] "GET /simil_pred?filename=food_1.png&nb_responses=10 HTTP/1.1" 200 -
+2021-09-15 14:57:29.343 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:57:29.346 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:57:29] "[33mGET /sims/static/img/food_1.png HTTP/1.1[0m" 404 -
+2021-09-15 14:58:04.538 INFO routes - tri: Sort images selected
+2021-09-15 14:58:04.542 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:58:04] "GET /tri%7D HTTP/1.1" 200 -
+2021-09-15 14:58:04.617 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:58:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:58:10.190 INFO routes - tri: Sort images selected
+2021-09-15 14:58:10.200 INFO routes - tri: Post method allowed.
+2021-09-15 14:58:10.201 INFO routes - tri: File allowed. Redirecting to prediction endpoint
+2021-09-15 14:58:10.202 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:58:10] "[32mPOST /tri%7D HTTP/1.1[0m" 302 -
+2021-09-15 14:58:10.213 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:58:10] "GET /tri_pred?fileList=%3CFileStorage%3A+%27img%2Fclothes_2.png%27+%28%27image%2Fpng%27%29%3E HTTP/1.1" 200 -
+2021-09-15 14:58:10.278 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:58:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 14:58:10.280 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 14:58:10] "[33mGET /%3CFileStorage:%20'img/clothes_2.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
+2021-09-15 15:04:02.620 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-15 15:04:03.828 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:04:06.376 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:04:06.388 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:04:39.268 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/config.py', reloading
+2021-09-15 15:04:39.781 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:04:42.069 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:04:42.081 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:05:07.989 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/config.py', reloading
+2021-09-15 15:05:08.487 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:05:10.795 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:05:10.807 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:06:08.477 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/config.py', reloading
+2021-09-15 15:06:09.027 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:06:11.541 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:06:11.554 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:06:56.797 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-15 15:06:57.314 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:07:27.466 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-15 15:07:27.467 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:07:30.055 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:07:30.069 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:07:33.900 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:07:33] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-09-15 15:07:33.958 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:07:33] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-15 15:07:33.959 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:07:33] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-15 15:07:33.976 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:07:33] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-15 15:07:57.035 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/config.py', reloading
+2021-09-15 15:07:57.550 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:07:59.891 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:07:59.904 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:07:59.946 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:07:59] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-09-15 15:08:00.529 INFO routes - home: App initialized
+2021-09-15 15:08:00.539 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:08:00] "GET /home HTTP/1.1" 200 -
+2021-09-15 15:08:00.587 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:08:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 15:08:00.591 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:08:00] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-15 15:08:01.306 INFO routes - main_page: Entering home endpoint
+2021-09-15 15:08:01.310 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:08:01] "GET /main_page HTTP/1.1" 200 -
+2021-09-15 15:08:01.360 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:08:01] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 15:08:02.331 INFO routes - simil: Similar images selected
+2021-09-15 15:08:02.331 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-15 15:08:02.333 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:08:02] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-15 15:08:02.379 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:08:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 15:08:18.539 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/main/routes.py', reloading
+2021-09-15 15:08:19.043 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:08:21.313 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:08:21.325 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:09:39.511 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-15 15:09:40.014 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:31:16.268 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-15 15:31:16.324 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:31:16.324 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:31:16.324 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:31:16.325 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:31:16.967 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-15 15:31:16.968 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:31:18.703 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-15 15:31:18.750 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:31:18.750 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:31:18.750 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:31:18.750 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:31:19.372 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:31:19.386 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:31:23.408 INFO routes - home: App initialized
+2021-09-15 15:31:23.418 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:23] "GET /home HTTP/1.1" 200 -
+2021-09-15 15:31:23.489 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 15:31:23.497 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:23] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-15 15:31:24.183 INFO routes - main_page: Entering home endpoint
+2021-09-15 15:31:24.186 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:24] "GET /main_page HTTP/1.1" 200 -
+2021-09-15 15:31:24.237 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:24] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 15:31:24.922 INFO routes - simil: Similar images selected
+2021-09-15 15:31:24.922 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-15 15:31:24.924 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:24] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-15 15:31:24.981 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:24] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 15:31:28.773 INFO routes - simil: Similar images selected
+2021-09-15 15:31:28.775 INFO routes - simil: Post method allowed.
+2021-09-15 15:31:28.775 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-15 15:31:28.776 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:28] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-15 15:31:31.410 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-15 15:31:31.410 DEBUG PngImagePlugin - call: STREAM b'sRGB' 41 1
+2021-09-15 15:31:31.411 DEBUG PngImagePlugin - call: STREAM b'gAMA' 54 4
+2021-09-15 15:31:31.411 DEBUG PngImagePlugin - call: STREAM b'pHYs' 70 9
+2021-09-15 15:31:31.411 DEBUG PngImagePlugin - call: STREAM b'IDAT' 91 65445
+2021-09-15 15:31:33.282 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:33] "GET /simil_pred?filename=chien_3.PNG&nb_responses=10 HTTP/1.1" 200 -
+2021-09-15 15:31:33.342 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-15 15:31:33.344 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:31:33] "[33mGET /sims/static/img/chien_3.PNG HTTP/1.1[0m" 404 -
+2021-09-15 15:34:51.173 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:34:51] "[35m[1mGET /simil_pred?filename=chien_3.PNG&nb_responses=z HTTP/1.1[0m" 500 -
+2021-09-15 15:34:51.216 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:34:51] "GET /simil_pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-15 15:34:51.217 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:34:51] "GET /simil_pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-15 15:34:51.237 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:34:51] "GET /simil_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-15 15:35:07.765 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:35:07] "[33mGET /ee HTTP/1.1[0m" 404 -
+2021-09-15 15:41:09.107 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/errors/handlers.py', reloading
+2021-09-15 15:41:10.184 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:41:11.881 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-15 15:41:11.937 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:41:11.937 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:41:11.937 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:41:11.937 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:41:12.551 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:41:12.564 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:41:25.948 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/errors/handlers.py', reloading
+2021-09-15 15:41:26.484 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:41:28.225 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-15 15:41:28.271 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:41:28.271 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:41:28.271 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:41:28.271 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:41:28.891 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:41:28.904 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:50:15.495 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-15 15:50:16.034 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:50:17.827 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-15 15:50:17.873 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:50:17.873 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:50:17.873 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:50:17.873 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:50:18.512 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:50:18.526 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:50:43.187 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-15 15:50:43.749 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:50:48.763 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-15 15:50:48.812 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:50:48.812 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:50:48.812 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:50:48.812 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:50:49.419 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-15 15:50:49.420 INFO _internal - _log:  * Restarting with stat
+2021-09-15 15:50:51.122 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-15 15:50:51.167 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:50:51.168 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:50:51.168 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-15 15:50:51.168 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-15 15:50:51.785 WARNING _internal - _log:  * Debugger is active!
+2021-09-15 15:50:51.798 INFO _internal - _log:  * Debugger PIN: 105-454-181
+2021-09-15 15:50:51.838 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:50:51] "[33mGET /ee HTTP/1.1[0m" 404 -
+2021-09-15 15:50:51.886 INFO _internal - _log: 127.0.0.1 - - [15/Sep/2021 15:50:51] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:14:07.973 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:14:08.047 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:14:08.047 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:14:08.047 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:14:08.047 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:14:08.798 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 09:14:08.798 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:14:10.381 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:14:10.423 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:14:10.423 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:14:10.423 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:14:10.423 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:14:10.987 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:14:10.994 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 09:15:24.083 INFO routes - home: App initialized
+2021-09-16 09:15:24.095 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:15:24] "GET / HTTP/1.1" 200 -
+2021-09-16 09:15:24.159 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:15:24] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:15:24.161 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:15:24] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:15:24.206 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:15:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:15:27.041 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:15:27.046 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:15:27] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:15:27.084 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:15:27] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:32:40.053 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/inference/routes.py', reloading
+2021-09-16 09:32:40.544 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:32:42.275 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:32:42.322 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:32:42.322 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:32:42.322 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:32:42.322 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:32:42.947 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:32:42.958 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 09:32:42.988 INFO routes - home: App initialized
+2021-09-16 09:32:42.997 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:42] "GET / HTTP/1.1" 200 -
+2021-09-16 09:32:43.049 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:32:43.051 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:43] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:32:44.844 INFO routes - home: App initialized
+2021-09-16 09:32:44.845 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:44] "GET / HTTP/1.1" 200 -
+2021-09-16 09:32:44.883 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:44] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:32:44.893 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:44] "GET /static/img/main.jpg HTTP/1.1" 200 -
+2021-09-16 09:32:44.955 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:32:47.406 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:32:47.409 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:47] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:32:47.457 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:32:48.246 INFO routes - simil: Similar images selected
+2021-09-16 09:32:48.246 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-16 09:32:48.248 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:48] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-16 09:32:48.291 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:32:51.178 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:51] "GET /login HTTP/1.1" 200 -
+2021-09-16 09:32:51.221 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:51] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:32:56.302 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-16 09:32:56.304 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-16 09:32:56.308 INFO routes - home: App initialized
+2021-09-16 09:32:56.311 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:56] "GET /home HTTP/1.1" 200 -
+2021-09-16 09:32:56.353 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:56] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:32:56.356 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:56] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:32:59.889 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:32:59.897 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:59] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:32:59.947 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:32:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:33:00.571 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.578 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.586 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.591 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.597 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.602 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.607 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.613 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.618 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.623 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.628 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.633 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.638 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.643 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.648 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.653 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.658 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.664 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.669 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.673 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:33:00.679 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:33:00] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.003 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.009 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.015 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.020 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.026 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.031 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.036 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.041 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.046 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.051 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.056 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.061 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.066 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.071 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.076 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.081 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.086 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.091 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.095 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.100 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:20.105 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:20] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.175 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.185 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.193 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.198 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.203 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.208 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.213 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.217 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.222 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.227 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.231 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.236 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.240 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.245 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.249 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.253 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.258 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.262 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.267 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.272 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:22.277 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:22] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.510 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.517 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.522 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.527 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.532 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.536 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.541 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.545 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.550 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.556 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.561 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.566 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.571 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.575 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.580 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.584 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.589 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.593 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.598 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.602 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:34:23.607 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:34:23] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:35:22.942 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/inference/routes.py', reloading
+2021-09-16 09:35:23.327 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:35:25.087 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:35:25.131 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:35:25.131 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:35:25.131 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:35:25.131 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:35:25.746 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:35:25.756 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 09:35:25.792 INFO routes - home: App initialized
+2021-09-16 09:35:25.813 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:25] "GET /home HTTP/1.1" 200 -
+2021-09-16 09:35:25.844 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:25] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:35:25.854 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:25] "GET /static/img/main.jpg HTTP/1.1" 200 -
+2021-09-16 09:35:25.929 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:35:26.544 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:35:26.548 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:26] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:35:26.585 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:35:27.437 INFO routes - simil: Similar images selected
+2021-09-16 09:35:27.437 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-16 09:35:27.440 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:27] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-16 09:35:27.473 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:27] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:35:32.015 INFO routes - simil: Similar images selected
+2021-09-16 09:35:32.016 INFO routes - simil: Post method allowed.
+2021-09-16 09:35:32.017 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-16 09:35:32.018 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:32] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:35:34.132 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-16 09:35:34.132 DEBUG PngImagePlugin - call: STREAM b'sRGB' 41 1
+2021-09-16 09:35:34.132 DEBUG PngImagePlugin - call: STREAM b'gAMA' 54 4
+2021-09-16 09:35:34.132 DEBUG PngImagePlugin - call: STREAM b'pHYs' 70 9
+2021-09-16 09:35:34.132 DEBUG PngImagePlugin - call: STREAM b'IDAT' 91 59362
+2021-09-16 09:35:34.542 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:34] "GET /simil_pred?filename=chien_1.PNG&nb_responses=10 HTTP/1.1" 200 -
+2021-09-16 09:35:34.600 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:34] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:35:34.605 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:34] "[33mGET /sims/static/img/chien_1.PNG HTTP/1.1[0m" 404 -
+2021-09-16 09:35:56.492 INFO routes - simil: Similar images selected
+2021-09-16 09:35:56.493 INFO routes - simil: Post method allowed.
+2021-09-16 09:35:56.494 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-16 09:35:56.494 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:56] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:35:57.051 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:57] "GET /simil_pred?filename=cheval_1.PNG&nb_responses=10 HTTP/1.1" 200 -
+2021-09-16 09:35:57.108 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:35:57.112 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:35:57] "[33mGET /sims/static/img/cheval_1.PNG HTTP/1.1[0m" 404 -
+2021-09-16 09:36:04.916 INFO routes - simil: Similar images selected
+2021-09-16 09:36:04.918 INFO routes - simil: Post method allowed.
+2021-09-16 09:36:04.918 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-16 09:36:04.919 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:04] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:36:05.450 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:05] "GET /simil_pred?filename=giraffe_1.PNG&nb_responses=10 HTTP/1.1" 200 -
+2021-09-16 09:36:05.502 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:36:05.507 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:05] "[33mGET /sims/static/img/giraffe_1.PNG HTTP/1.1[0m" 404 -
+2021-09-16 09:36:43.799 INFO routes - simil: Similar images selected
+2021-09-16 09:36:43.800 INFO routes - simil: Post method allowed.
+2021-09-16 09:36:43.801 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-16 09:36:43.802 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:43] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:36:44.046 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-16 09:36:44.046 DEBUG PngImagePlugin - call: STREAM b'sBIT' 41 4
+2021-09-16 09:36:44.046 DEBUG PngImagePlugin - _open: b'sBIT' 41 4 (unknown)
+2021-09-16 09:36:44.046 DEBUG PngImagePlugin - call: STREAM b'tEXt' 57 25
+2021-09-16 09:36:44.046 DEBUG PngImagePlugin - call: STREAM b'IDAT' 94 8192
+2021-09-16 09:36:44.340 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:44] "GET /simil_pred?filename=bike_1.png&nb_responses=10 HTTP/1.1" 200 -
+2021-09-16 09:36:44.395 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:36:44.405 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:36:44] "[33mGET /sims/static/img/bike_1.png HTTP/1.1[0m" 404 -
+2021-09-16 09:37:26.028 INFO routes - simil: Similar images selected
+2021-09-16 09:37:26.028 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-16 09:37:26.030 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:37:26] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-16 09:37:26.812 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:37:26] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:37:27.389 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:37:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:39:38.039 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:39:38.084 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:39:38.085 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:39:38.085 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:39:38.085 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:39:38.691 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 09:39:38.691 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:39:40.425 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:39:40.468 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:39:40.468 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:39:40.468 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:39:40.468 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:39:41.027 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:39:41.037 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 09:39:41.064 INFO routes - home: App initialized
+2021-09-16 09:39:41.085 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:41] "GET / HTTP/1.1" 200 -
+2021-09-16 09:39:41.146 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:41] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:39:41.147 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:41] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:39:41.205 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:39:42.522 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:39:42.528 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:42] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:39:42.568 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:42] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:39:42.601 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:39:43.394 INFO routes - simil: Similar images selected
+2021-09-16 09:39:43.394 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-16 09:39:43.397 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:43] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-16 09:39:43.431 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:39:43.469 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:39:49.084 INFO routes - simil: Similar images selected
+2021-09-16 09:39:49.085 INFO routes - simil: Post method allowed.
+2021-09-16 09:39:49.086 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-16 09:39:49.087 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:49] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:39:51.476 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:51] "GET /simil_pred?filename=bike_1.png&nb_responses=10 HTTP/1.1" 200 -
+2021-09-16 09:39:51.525 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:51] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:39:51.542 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:51] "[33mGET /sims/static/img/bike_1.png HTTP/1.1[0m" 404 -
+2021-09-16 09:39:52.300 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:39:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:45:06.554 INFO routes - logout: User logged out.
+2021-09-16 09:45:06.555 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-16 09:45:06.563 INFO routes - home: App initialized
+2021-09-16 09:45:06.564 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:06] "GET /home HTTP/1.1" 200 -
+2021-09-16 09:45:06.615 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:06] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:45:06.618 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:06] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:45:06.648 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:45:08.111 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:45:08.113 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:08] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:45:08.158 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:08] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:45:08.191 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:45:08.937 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:08] "[35m[1mGET /simil%7D HTTP/1.1[0m" 500 -
+2021-09-16 09:45:08.982 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 09:45:08.982 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 09:45:09.025 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:45:09] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 09:46:05.890 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/inference/routes.py', reloading
+2021-09-16 09:46:06.386 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:46:08.068 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:46:08.114 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:46:08.114 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:46:08.114 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:46:08.114 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:46:08.710 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:46:08.720 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 09:46:08.755 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:08] "[35m[1mGET /simil%7D HTTP/1.1[0m" 500 -
+2021-09-16 09:46:08.799 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 09:46:08.799 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 09:46:08.824 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:08] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 09:46:14.759 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:46:14.772 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:14] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:46:14.801 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:14] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:46:14.875 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:46:15.671 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:15] "[35m[1mGET /simil%7D HTTP/1.1[0m" 500 -
+2021-09-16 09:46:15.705 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:15] "GET /simil%7D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 09:46:15.707 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:15] "GET /simil%7D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 09:46:15.724 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:15] "GET /simil%7D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 09:46:32.658 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/inference/routes.py', reloading
+2021-09-16 09:46:33.172 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:46:34.858 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:46:34.902 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:46:34.902 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:46:34.902 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:46:34.902 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:46:35.502 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:46:35.513 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 09:46:35.545 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:35] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:46:35.549 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:46:35.560 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:35] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:46:35.599 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:35] "GET /static/main.css HTTP/1.1" 200 -
+2021-09-16 09:46:35.635 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:46:43.839 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:43] "GET /login HTTP/1.1" 200 -
+2021-09-16 09:46:43.885 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:46:43.929 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:46:50.040 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-16 09:46:50.041 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-16 09:46:50.045 INFO routes - home: App initialized
+2021-09-16 09:46:50.049 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:50] "GET /home HTTP/1.1" 200 -
+2021-09-16 09:46:50.082 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:46:50.085 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:50] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:46:50.126 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:46:50.796 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:46:50.798 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:50] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:46:50.838 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:46:51.488 INFO routes - simil: Similar images selected
+2021-09-16 09:46:51.489 WARNING routes - simil: Only Post methods allowed. Reloading endpoint.
+2021-09-16 09:46:51.495 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:51] "GET /simil%7D HTTP/1.1" 200 -
+2021-09-16 09:46:51.537 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:46:51] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:47:00.660 INFO routes - simil: Similar images selected
+2021-09-16 09:47:00.661 INFO routes - simil: Post method allowed.
+2021-09-16 09:47:00.661 INFO routes - simil: File allowed. Redirecting to prediction endpoint
+2021-09-16 09:47:00.662 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:47:00] "[32mPOST /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:47:02.709 DEBUG PngImagePlugin - call: STREAM b'IHDR' 16 13
+2021-09-16 09:47:02.710 DEBUG PngImagePlugin - call: STREAM b'sBIT' 41 4
+2021-09-16 09:47:02.710 DEBUG PngImagePlugin - _open: b'sBIT' 41 4 (unknown)
+2021-09-16 09:47:02.710 DEBUG PngImagePlugin - call: STREAM b'tEXt' 57 25
+2021-09-16 09:47:02.710 DEBUG PngImagePlugin - call: STREAM b'IDAT' 94 8192
+2021-09-16 09:47:03.069 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:47:03] "GET /simil_pred?filename=from_test_1.png&nb_responses=10 HTTP/1.1" 200 -
+2021-09-16 09:47:03.104 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:47:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:47:03.118 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:47:03] "[33mGET /sims/static/img/from_test_1.png HTTP/1.1[0m" 404 -
+2021-09-16 09:47:08.551 INFO routes - home: App initialized
+2021-09-16 09:47:08.553 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:47:08] "GET /home HTTP/1.1" 200 -
+2021-09-16 09:47:08.587 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:47:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:47:08.590 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:47:08] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:48:42.124 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/inference/routes.py', reloading
+2021-09-16 09:48:42.651 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:48:44.375 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:48:44.419 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:48:44.419 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:48:44.419 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:48:44.419 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:48:45.014 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:48:45.025 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 09:48:45.053 INFO routes - home: App initialized
+2021-09-16 09:48:45.073 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:48:45] "GET /home HTTP/1.1" 200 -
+2021-09-16 09:48:45.107 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:48:45] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:48:45.111 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:48:45] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:48:46.575 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:48:46.583 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:48:46] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:48:46.621 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:48:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:48:47.684 INFO routes - tri: Sort images selected
+2021-09-16 09:48:47.686 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:48:47] "GET /tri%7D HTTP/1.1" 200 -
+2021-09-16 09:48:47.730 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:48:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:05.407 INFO routes - tri: Sort images selected
+2021-09-16 09:49:05.429 INFO routes - tri: Post method allowed.
+2021-09-16 09:49:05.429 INFO routes - tri: File allowed. Redirecting to prediction endpoint
+2021-09-16 09:49:05.431 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:05] "[32mPOST /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:49:05.439 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:05] "GET /tri_pred?fileList=%3CFileStorage%3A+%27img%2Fclothes_2.png%27+%28%27image%2Fpng%27%29%3E HTTP/1.1" 200 -
+2021-09-16 09:49:05.488 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:05.493 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:05] "[33mGET /%3CFileStorage:%20'img/clothes_2.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
+2021-09-16 09:49:06.792 INFO routes - logout: User logged out.
+2021-09-16 09:49:06.796 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-09-16 09:49:06.810 INFO routes - home: App initialized
+2021-09-16 09:49:06.811 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:06] "GET /home HTTP/1.1" 200 -
+2021-09-16 09:49:06.859 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:06.862 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:06] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 09:49:06.894 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:49:07.576 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:49:07.579 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:07] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:49:07.616 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:07] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:07.649 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:49:08.237 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:08] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:49:08.255 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:49:08.256 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:08] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:49:08.296 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:08.327 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:49:09.876 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:09] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:49:09.880 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:49:09.882 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:09] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:49:09.926 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:09.958 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:49:10.718 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:10] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:49:10.729 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:49:10.732 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:10] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:49:10.768 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:10.801 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:49:11.415 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:11] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:49:11.427 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:49:11.431 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:11] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:49:11.468 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:11] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:11.498 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:49:12.125 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:12] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:49:12.135 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:49:12.138 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:12] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:49:12.174 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:49:12.203 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:49:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:51:28.111 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:28] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:51:28.116 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:51:28.117 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:28] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:51:28.165 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:51:28.199 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:51:28.920 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:28] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:51:28.927 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:51:28.928 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:28] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:51:28.969 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:51:29.090 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:29] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:51:29.097 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:51:29.099 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:29] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:51:29.140 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:51:29.177 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:51:29.459 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:29] "[32mGET /tri%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:51:29.468 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:51:29.469 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:29] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:51:29.515 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:51:32.065 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:32] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 09:51:32.077 INFO routes - main_page: Entering home endpoint
+2021-09-16 09:51:32.082 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:32] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 09:51:32.123 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 09:51:32.151 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 09:51:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 09:57:58.635 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-16 09:57:59.132 INFO _internal - _log:  * Restarting with stat
+2021-09-16 09:58:00.799 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 09:58:00.843 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:58:00.843 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:58:00.843 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 09:58:00.843 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 09:58:01.422 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 09:58:01.433 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 10:08:31.355 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-16 10:08:31.836 INFO _internal - _log:  * Restarting with stat
+2021-09-16 10:15:26.788 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 10:15:26.832 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:15:26.832 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:15:26.832 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:15:26.832 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:15:27.430 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 10:15:27.431 INFO _internal - _log:  * Restarting with stat
+2021-09-16 10:15:29.114 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 10:15:29.157 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:15:29.158 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:15:29.158 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:15:29.158 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:15:29.741 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 10:15:29.751 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 10:15:32.193 INFO routes - home: App initialized
+2021-09-16 10:15:32.205 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:32] "GET / HTTP/1.1" 200 -
+2021-09-16 10:15:32.236 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:15:32.253 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:32] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 10:15:32.284 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:15:33.313 INFO routes - main_page: Entering home endpoint
+2021-09-16 10:15:33.325 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:33] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 10:15:33.375 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:15:33.408 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:15:34.568 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:34] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 10:15:34.581 INFO routes - main_page: Entering home endpoint
+2021-09-16 10:15:34.585 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:34] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 10:15:34.632 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:34] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:15:34.661 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:15:39.376 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "[32mGET /admin HTTP/1.1[0m" 308 -
+2021-09-16 10:15:39.536 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/ HTTP/1.1" 200 -
+2021-09-16 10:15:39.577 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1" 200 -
+2021-09-16 10:15:39.578 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1" 200 -
+2021-09-16 10:15:39.579 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1" 200 -
+2021-09-16 10:15:39.582 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1" 200 -
+2021-09-16 10:15:39.582 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+2021-09-16 10:15:39.584 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 200 -
+2021-09-16 10:15:39.587 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+2021-09-16 10:15:39.628 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:15:41.438 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "GET /admin/ HTTP/1.1" 200 -
+2021-09-16 10:15:41.466 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:41.466 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:41.469 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:41.472 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:41.473 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:41.483 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:41.483 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:41.524 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:15:42.540 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/user/ HTTP/1.1" 200 -
+2021-09-16 10:15:42.581 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:42.582 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:42.584 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:42.585 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+2021-09-16 10:15:42.587 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:42.588 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1" 200 -
+2021-09-16 10:15:42.590 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:42.592 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:42.594 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:15:42.595 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+2021-09-16 10:15:42.600 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+2021-09-16 10:15:42.601 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+2021-09-16 10:15:42.601 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+2021-09-16 10:15:42.610 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "GET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1" 200 -
+2021-09-16 10:15:42.640 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:15:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:16:15.666 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[32mPOST /admin/user/delete/ HTTP/1.1[0m" 302 -
+2021-09-16 10:16:15.698 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "GET /admin/user/ HTTP/1.1" 200 -
+2021-09-16 10:16:15.736 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.736 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.738 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.742 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.742 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.744 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.747 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.749 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.751 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.752 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.755 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.756 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.757 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.777 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1[0m" 304 -
+2021-09-16 10:16:15.803 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:16:20.058 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[32mPOST /admin/user/delete/ HTTP/1.1[0m" 302 -
+2021-09-16 10:16:20.070 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "GET /admin/user/ HTTP/1.1" 200 -
+2021-09-16 10:16:20.114 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.114 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.116 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.117 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.119 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.122 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.124 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.125 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.129 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.130 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.131 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.134 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.135 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.148 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1[0m" 304 -
+2021-09-16 10:16:20.162 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:16:32.046 INFO routes - home: App initialized
+2021-09-16 10:16:32.047 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:32] "GET /home HTTP/1.1" 200 -
+2021-09-16 10:16:32.091 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:16:32.095 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:32] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 10:16:32.121 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:16:38.031 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "GET /admin/ HTTP/1.1" 200 -
+2021-09-16 10:16:38.074 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:38.076 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:38.078 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:38.080 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:38.083 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:38.084 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:38.086 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+2021-09-16 10:16:38.111 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:16:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:44:05.096 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-16 10:44:05.572 INFO _internal - _log:  * Restarting with stat
+2021-09-16 10:59:33.987 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 10:59:34.031 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:59:34.031 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:59:34.031 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:59:34.031 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:59:34.618 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 10:59:34.618 INFO _internal - _log:  * Restarting with stat
+2021-09-16 10:59:36.287 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 10:59:36.331 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:59:36.331 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:59:36.331 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 10:59:36.331 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 10:59:36.907 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 10:59:36.915 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 10:59:37.950 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:37] "[33mGET /admin/user/ HTTP/1.1[0m" 404 -
+2021-09-16 10:59:37.975 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:59:38.031 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:59:39.781 INFO routes - home: App initialized
+2021-09-16 10:59:39.791 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:39] "GET /home HTTP/1.1" 200 -
+2021-09-16 10:59:39.841 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:59:39.843 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:39] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 10:59:39.871 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:59:44.886 INFO routes - main_page: Entering home endpoint
+2021-09-16 10:59:44.900 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:44] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 10:59:44.933 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:59:44.966 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:59:47.921 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:47] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 10:59:47.925 INFO routes - main_page: Entering home endpoint
+2021-09-16 10:59:47.928 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:47] "GET /main_page HTTP/1.1" 200 -
+2021-09-16 10:59:47.967 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:59:47.998 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:59:48.902 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:48] "GET /login HTTP/1.1" 200 -
+2021-09-16 10:59:48.945 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 10:59:48.996 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 10:59:57.686 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:57] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-16 10:59:57.716 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:57] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 10:59:57.716 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:57] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 10:59:57.761 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 10:59:57] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:01:46.036 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:01:46.079 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:01:46.079 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:01:46.079 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:01:46.079 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:01:46.650 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 11:01:46.650 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:01:48.225 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:01:48.268 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:01:48.268 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:01:48.268 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:01:48.268 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:01:48.831 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:01:48.839 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:01:52.874 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:01:52] "GET /login HTTP/1.1" 200 -
+2021-09-16 11:01:52.899 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:01:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:01:52.948 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:01:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:01:55.193 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:01:55] "GET /register HTTP/1.1" 200 -
+2021-09-16 11:01:55.233 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:01:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:01:55.262 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:01:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:02:17.912 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:02:17] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 11:02:17.944 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:02:17] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 11:02:17.945 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:02:17] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 11:02:17.987 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:02:17] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:03:47.913 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:03:48.405 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:03:50.031 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:03:50.075 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:03:50.075 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:03:50.075 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:03:50.075 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:03:50.650 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:03:50.658 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:03:55.550 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:03:55] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 11:03:55.588 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:03:55] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 11:03:55.589 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:03:55] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 11:03:55.618 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:03:55] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:05:49.079 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:05:49.123 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:05:49.123 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:05:49.123 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:05:49.123 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:05:49.729 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 11:05:49.730 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:05:51.372 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:05:51.416 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:05:51.416 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:05:51.416 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:05:51.416 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:05:52.004 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:05:52.012 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:05:52.839 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:05:52] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 11:05:52.879 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:05:52] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 11:05:52.879 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:05:52] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 11:05:52.906 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:05:52] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:06:24.104 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:06:24.588 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:06:26.282 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:06:26.328 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:06:26.329 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:06:26.329 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:06:26.329 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:06:26.922 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:06:26.930 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:06:43.235 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:06:43.278 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:06:43.278 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:06:43.278 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:06:43.278 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:06:43.847 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 11:06:43.847 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:06:45.459 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:06:45.504 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:06:45.504 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:06:45.504 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:06:45.504 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:06:46.093 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:06:46.101 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:06:46.629 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:06:46] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 11:06:46.654 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:06:46] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 11:06:46.654 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:06:46] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 11:06:46.691 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:06:46] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:07:02.975 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:07:03.022 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:07:03.022 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:07:03.022 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:07:03.022 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:07:03.611 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 11:07:03.612 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:07:05.238 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:07:05.281 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:07:05.281 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:07:05.281 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:07:05.282 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:07:05.867 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:07:05.875 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:07:09.358 INFO routes - home: App initialized
+2021-09-16 11:07:09.370 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:07:09] "GET /home HTTP/1.1" 200 -
+2021-09-16 11:07:09.407 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:07:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:07:09.411 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:07:09] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 11:07:09.439 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:07:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:07:12.090 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:07:12] "GET /register HTTP/1.1" 200 -
+2021-09-16 11:07:12.132 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:07:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:07:12.162 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:07:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:07:43.199 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:07:43.701 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:08:26.169 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:08:26.216 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:08:26.217 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:08:26.217 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:08:26.217 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:08:26.839 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 11:08:26.840 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:08:28.561 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:08:28.609 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:08:28.609 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:08:28.609 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:08:28.609 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:08:29.223 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:08:29.232 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:08:31.618 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:08:31] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 11:08:31.653 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:08:31] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 11:08:31.654 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:08:31] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 11:08:31.687 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:08:31] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:11:04.171 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:11:04.214 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:11:04.214 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:11:04.214 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:11:04.214 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:18:47.188 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:18:47.233 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:18:47.233 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:18:47.233 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:18:47.233 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:18:47.828 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 11:18:47.829 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:18:49.469 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:18:49.513 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:18:49.513 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:18:49.513 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:18:49.513 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:18:50.091 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:18:50.100 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:18:52.160 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:18:52] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 11:18:52.187 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:18:52] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 11:18:52.188 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:18:52] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 11:18:52.231 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:18:52] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:20:52.115 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:20:52.600 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:20:54.267 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:20:54.312 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:20:54.312 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:20:54.312 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:20:54.313 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:20:54.909 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:20:54.917 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:20:58.322 INFO routes - register: New administrator account created. login: Andrés.
+2021-09-16 11:20:58.324 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:20:58] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-16 11:20:58.328 INFO routes - home: App initialized
+2021-09-16 11:20:58.432 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:20:58] "GET /home HTTP/1.1" 200 -
+2021-09-16 11:20:58.476 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:20:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:20:58.483 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:20:58] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 11:20:58.509 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:20:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:21:23.513 INFO routes - register: New administrator account created. login: titi.
+2021-09-16 11:21:23.514 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:23] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-16 11:21:23.518 INFO routes - home: App initialized
+2021-09-16 11:21:23.519 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:23] "GET /home HTTP/1.1" 200 -
+2021-09-16 11:21:23.555 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:21:23.558 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:23] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 11:21:23.586 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:21:44.014 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:44] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+2021-09-16 11:21:44.053 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:21:44.087 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:21:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:24:18.394 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:24:18.858 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:24:20.576 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:24:20.622 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:24:20.622 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:24:20.622 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:24:20.622 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:24:21.209 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:24:21.217 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:26:04.649 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:26:05.157 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:26:06.805 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:26:06.850 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:26:06.850 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:26:06.850 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:26:06.850 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:26:07.433 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:26:07.443 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:26:21.359 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:26:21.403 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:26:21.403 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:26:21.403 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:26:21.403 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:26:21.981 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 11:26:21.981 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:26:23.590 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:26:23.633 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:26:23.634 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:26:23.634 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:26:23.634 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:26:24.206 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:26:24.215 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:26:41.855 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:26:41] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 11:26:41.880 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:26:41] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-09-16 11:26:41.881 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:26:41] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-09-16 11:26:41.923 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:26:41] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-09-16 11:28:31.499 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:28:31.953 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:28:33.654 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:28:33.699 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:28:33.699 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:28:33.699 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:28:33.699 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:28:34.282 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:28:34.292 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:28:41.805 INFO routes - register: New administrator account created. login: Andrés.
+2021-09-16 11:28:41.807 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:41] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-16 11:28:41.811 INFO routes - home: App initialized
+2021-09-16 11:28:41.923 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:41] "GET /home HTTP/1.1" 200 -
+2021-09-16 11:28:41.977 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:41] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:28:41.981 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:41] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 11:28:42.010 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:28:46.247 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:28:55.867 INFO routes - register: New account created. login: titi.
+2021-09-16 11:28:55.868 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:55] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-16 11:28:55.872 INFO routes - home: App initialized
+2021-09-16 11:28:55.873 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:55] "GET /home HTTP/1.1" 200 -
+2021-09-16 11:28:55.914 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:28:55.917 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:55] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 11:28:55.944 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:28:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 11:29:30.327 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 11:29:30.853 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:29:32.507 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:29:32.550 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:29:32.551 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:29:32.551 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:29:32.551 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:29:33.131 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:29:33.142 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:32:11.424 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-16 11:32:11.927 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:32:13.568 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:32:13.613 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:32:13.613 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:32:13.613 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:32:13.613 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:32:14.220 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:32:14.231 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:37:03.901 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/main/routes.py', reloading
+2021-09-16 11:37:04.430 INFO _internal - _log:  * Restarting with stat
+2021-09-16 11:37:06.130 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 11:37:06.177 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:37:06.177 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:37:06.177 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 11:37:06.177 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 11:37:06.804 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 11:37:06.816 INFO _internal - _log:  * Debugger PIN: 138-872-251
+2021-09-16 11:37:06.847 INFO routes - home: App initialized
+2021-09-16 11:37:06.856 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:37:06] "GET /home HTTP/1.1" 200 -
+2021-09-16 11:37:06.905 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:37:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 11:37:06.909 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:37:06] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 11:37:06.938 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 11:37:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 12:05:40.533 INFO _internal - _log:  * Detected change in '/home/afl/.virtualenvs/metric/lib/python3.8/site-packages/jinja2/exceptions.py', reloading
+2021-09-16 12:05:40.991 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:05:42.638 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:05:42.684 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:05:42.684 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:05:42.684 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:05:42.684 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:05:43.291 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:05:43.302 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:06:14.517 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-16 12:06:15.008 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:06:16.613 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:06:16.657 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:06:16.657 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:06:16.657 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:06:16.657 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:06:17.444 INFO base - start: Scheduler started
+2021-09-16 12:06:17.445 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:06:17.445 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:06:17.556 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:06:17.572 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:06:26.830 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:26] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2021-09-16 12:06:26.837 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:26] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2021-09-16 12:06:26.847 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:26] "[37mGET /dashboard/login HTTP/1.1[0m" 200 -
+2021-09-16 12:06:26.894 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:26] "[37mGET /dashboard/static/css/app.css HTTP/1.1[0m" 200 -
+2021-09-16 12:06:26.894 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:26] "[37mGET /dashboard/static/js/app.js HTTP/1.1[0m" 200 -
+2021-09-16 12:06:26.897 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:26] "[37mGET /dashboard/static/img/header.png HTTP/1.1[0m" 200 -
+2021-09-16 12:06:27.214 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:27] "[37mGET /dashboard/static/fonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+2021-09-16 12:06:32.844 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:32] "[37mGET /dashboard/static/img/favicon.ico HTTP/1.1[0m" 200 -
+2021-09-16 12:06:33.673 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:33] "[37mPOST /dashboard/login HTTP/1.1[0m" 200 -
+2021-09-16 12:06:43.834 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:06:43] "[37mGET /dashboard/static/pages/overview.html HTTP/1.1[0m" 200 -
+2021-09-16 12:11:50.570 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-16 12:11:50.571 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:11:50.571 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:11:50.572 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:11:51.096 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:11:52.698 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:11:52.743 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:11:52.743 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:11:52.743 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:11:52.743 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:11:53.359 INFO base - start: Scheduler started
+2021-09-16 12:11:53.360 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:11:53.360 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:11:53.386 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:11:53.386 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:11:53.386 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:11:57.700 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:11:57.745 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:11:57.745 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:11:57.745 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:11:57.745 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:11:58.359 INFO base - start: Scheduler started
+2021-09-16 12:11:58.359 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:11:58.359 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:11:58.384 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:11:58.385 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:11:58.385 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:12:38.567 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:12:38.612 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:12:38.612 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:12:38.612 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:12:38.612 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:12:39.226 INFO base - start: Scheduler started
+2021-09-16 12:12:39.226 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:12:39.226 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:12:39.251 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:12:39.251 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:12:39.251 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:13:02.264 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:13:02.308 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:13:02.309 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:13:02.309 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:13:02.309 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:13:02.915 INFO base - start: Scheduler started
+2021-09-16 12:13:02.915 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:13:02.921 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:13:02.941 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:13:02.941 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:13:02.941 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:13:49.167 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:13:49.212 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:13:49.212 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:13:49.212 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:13:49.212 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:13:49.832 INFO base - start: Scheduler started
+2021-09-16 12:13:49.833 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:13:49.833 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:13:49.857 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:13:49.857 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:13:49.857 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:18:43.985 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:18:44.029 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:18:44.029 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:18:44.029 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:18:44.029 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:18:44.637 INFO base - start: Scheduler started
+2021-09-16 12:18:44.638 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:18:44.638 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:18:44.750 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:18:44.751 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:18:46.334 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:18:46.378 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:18:46.378 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:18:46.378 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:18:46.378 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:18:46.986 INFO base - start: Scheduler started
+2021-09-16 12:18:46.986 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:18:46.986 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:18:47.094 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:18:47.108 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:19:18.393 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:19:18] "[37mGET /dashboard/login HTTP/1.1[0m" 200 -
+2021-09-16 12:19:18.468 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:19:18] "[37mGET /dashboard/static/css/app.css HTTP/1.1[0m" 200 -
+2021-09-16 12:19:18.792 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:19:18] "[37mGET /dashboard/static/fonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+2021-09-16 12:19:25.329 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:19:25] "[32mGET /dashboard/overview HTTP/1.1[0m" 302 -
+2021-09-16 12:19:25.337 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:19:25] "[37mGET /dashboard/login HTTP/1.1[0m" 200 -
+2021-09-16 12:29:58.251 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:29:58.252 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:29:58.252 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:29:58.252 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:29:58.729 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:29:59.025 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:29:59.025 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:29:59.025 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:31:26.230 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:31:26.274 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:31:26.274 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:31:26.274 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:31:26.274 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:31:26.872 INFO base - start: Scheduler started
+2021-09-16 12:31:26.872 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:31:26.872 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:31:26.979 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:31:26.980 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:31:28.608 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:31:28.652 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:31:28.652 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:31:28.652 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:31:28.652 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:31:29.297 INFO base - start: Scheduler started
+2021-09-16 12:31:29.297 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:31:29.297 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:31:29.413 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:31:29.428 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:31:29.465 INFO routes - about: Entering about endpoint
+2021-09-16 12:31:29.474 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:31:29] "[37mGET /main.about HTTP/1.1[0m" 200 -
+2021-09-16 12:31:29.524 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:31:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-16 12:31:56.856 INFO routes - about: Entering about endpoint
+2021-09-16 12:31:56.858 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:31:56] "[37mGET /main.about HTTP/1.1[0m" 200 -
+2021-09-16 12:31:56.900 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:31:56] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2021-09-16 12:31:56.963 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:31:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 12:33:57.889 INFO routes - home: App initialized
+2021-09-16 12:33:57.898 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:33:57] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-09-16 12:33:57.957 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:33:57] "[36mGET /static/img/main.jpg HTTP/1.1[0m" 304 -
+2021-09-16 12:35:09.912 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:35:09.941 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:35:09.942 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:35:09.942 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:35:10.420 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:35:12.037 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:35:12.094 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:35:12.095 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:35:12.095 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:35:12.095 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:35:12.732 INFO base - start: Scheduler started
+2021-09-16 12:35:12.732 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:35:12.733 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:35:12.851 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:35:12.866 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:37:09.093 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:09] "[32mGET /dashboard/overview HTTP/1.1[0m" 302 -
+2021-09-16 12:37:09.104 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:09] "[37mGET /dashboard/login HTTP/1.1[0m" 200 -
+2021-09-16 12:37:09.203 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:09] "[37mGET /dashboard/static/fonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+2021-09-16 12:37:10.041 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:10] "[37mGET /dashboard/static/img/favicon.ico HTTP/1.1[0m" 200 -
+2021-09-16 12:37:20.750 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:20] "[32mPOST /dashboard/login HTTP/1.1[0m" 302 -
+2021-09-16 12:37:20.755 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:20] "[37mGET /dashboard/ HTTP/1.1[0m" 200 -
+2021-09-16 12:37:21.002 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:21] "[37mGET /dashboard/static/elements/menu.html HTTP/1.1[0m" 200 -
+2021-09-16 12:37:21.002 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:21] "[37mGET /dashboard/static/elements/modal.html HTTP/1.1[0m" 200 -
+2021-09-16 12:37:21.049 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:21] "[37mGET /dashboard/api/custom_graphs HTTP/1.1[0m" 200 -
+2021-09-16 12:37:21.116 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:21] "[37mGET /dashboard/api/overview HTTP/1.1[0m" 200 -
+2021-09-16 12:37:21.141 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:21] "[37mGET /dashboard/static/elements/monitorLevel.html HTTP/1.1[0m" 200 -
+2021-09-16 12:37:21.175 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:21] "[37mGET /dashboard/api/deploy_details HTTP/1.1[0m" 200 -
+2021-09-16 12:37:27.734 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:27] "[37mGET /dashboard/static/pages/plotly_graph.html HTTP/1.1[0m" 200 -
+2021-09-16 12:37:27.788 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:27] "[37mGET /dashboard/static/elements/endpointDetails.html HTTP/1.1[0m" 200 -
+2021-09-16 12:37:27.791 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:27] "[37mGET /dashboard/api/hourly_load/2021-09-02/2021-09-16/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:37:27.792 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:27] "[37mGET /dashboard/api/endpoint_info/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:37:30.239 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:30] "[37mGET /dashboard/api/users/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:37:30.242 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:30] "[37mGET /dashboard/api/endpoint_info/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:37:30.243 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:30] "[37mGET /dashboard/api/versions/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:37:30.270 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:30] "[37mPOST /dashboard/api/version_user/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:37:42.377 INFO routes - main_page: Entering home endpoint
+2021-09-16 12:37:42.389 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:42] "[37mGET /main_page HTTP/1.1[0m" 200 -
+2021-09-16 12:37:43.392 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:43] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 12:37:43.398 INFO routes - main_page: Entering home endpoint
+2021-09-16 12:37:43.400 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:43] "[37mGET /main_page HTTP/1.1[0m" 200 -
+2021-09-16 12:37:44.038 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:44] "[32mGET /simil%7D HTTP/1.1[0m" 302 -
+2021-09-16 12:37:44.047 INFO routes - main_page: Entering home endpoint
+2021-09-16 12:37:44.049 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:44] "[37mGET /main_page HTTP/1.1[0m" 200 -
+2021-09-16 12:37:46.194 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 12:37:50.995 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:50] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-16 12:37:51.031 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:51] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:37:51.032 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:51] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:37:51.033 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:51] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:37:51.095 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:51] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:37:55.977 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:55] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-16 12:37:56.004 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:37:56.004 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:37:56.005 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:37:56.072 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:38:06.886 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:06] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-16 12:38:06.921 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:38:06.922 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:38:06.923 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:38:06.982 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:38:59.292 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:59] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-16 12:38:59.329 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:59] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:38:59.331 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:59] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:38:59.332 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:59] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:38:59.391 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:38:59] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:40:20.177 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:40:20.178 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:40:20.178 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:40:20.390 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:40:20.390 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:40:20.390 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:40:24.264 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:40:24.308 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:40:24.308 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:40:24.308 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:40:24.308 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:40:24.942 INFO base - start: Scheduler started
+2021-09-16 12:40:24.942 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:40:24.942 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:40:25.056 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:40:25.057 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:40:26.676 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:40:26.719 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:40:26.719 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:40:26.719 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:40:26.719 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:40:27.334 INFO base - start: Scheduler started
+2021-09-16 12:40:27.335 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:40:27.335 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:40:27.470 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:40:27.486 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:40:29.318 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[37mGET /dashboard/endpoint/1/version_user HTTP/1.1[0m" 200 -
+2021-09-16 12:40:29.355 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[36mGET /dashboard/static/js/app.js HTTP/1.1[0m" 304 -
+2021-09-16 12:40:29.648 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[36mGET /dashboard/static/elements/menu.html HTTP/1.1[0m" 304 -
+2021-09-16 12:40:29.649 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[36mGET /dashboard/static/elements/modal.html HTTP/1.1[0m" 304 -
+2021-09-16 12:40:29.649 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[36mGET /dashboard/static/pages/plotly_graph.html HTTP/1.1[0m" 304 -
+2021-09-16 12:40:29.684 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[37mGET /dashboard/api/custom_graphs HTTP/1.1[0m" 200 -
+2021-09-16 12:40:29.733 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[37mGET /dashboard/api/users/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:40:29.734 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[37mGET /dashboard/api/versions/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:40:29.735 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[37mGET /dashboard/api/endpoint_info/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:40:29.752 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:29] "[37mPOST /dashboard/api/version_user/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:40:31.345 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:31] "[37mGET /dashboard/api/endpoint_info/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:40:31.346 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:31] "[37mGET /dashboard/api/hourly_load/2021-09-02/2021-09-16/1 HTTP/1.1[0m" 200 -
+2021-09-16 12:40:34.534 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:34] "[37mGET /dashboard/api/deploy_details HTTP/1.1[0m" 200 -
+2021-09-16 12:40:34.537 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:34] "[37mGET /dashboard/api/overview HTTP/1.1[0m" 200 -
+2021-09-16 12:40:54.731 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-16 12:40:54.763 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:40:54.775 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:40:54.775 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:40:54.833 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:40:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:41:11.407 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/models.py', reloading
+2021-09-16 12:41:11.428 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:41:11.428 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:41:11.428 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:41:11.945 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:41:13.567 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:41:13.612 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:41:13.612 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:41:13.612 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:41:13.612 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:41:14.274 INFO base - start: Scheduler started
+2021-09-16 12:41:14.275 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:41:14.275 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:41:14.396 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:41:14.410 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:41:18.024 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:41:18.024 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:41:18.025 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:41:18.228 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:41:18.228 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:41:18.228 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:41:21.110 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:41:21.155 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:41:21.155 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:41:21.155 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:41:21.155 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:41:21.794 INFO base - start: Scheduler started
+2021-09-16 12:41:21.794 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:41:21.794 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:41:21.906 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:41:21.907 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:41:23.528 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:41:23.572 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:41:23.572 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:41:23.572 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:41:23.572 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:41:24.201 INFO base - start: Scheduler started
+2021-09-16 12:41:24.202 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:41:24.202 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:41:24.320 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:41:24.336 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:41:24.400 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:24] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-09-16 12:41:24.434 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:41:24.435 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:24.435 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:24.495 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:41:42.210 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:42] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 12:41:43.718 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:43] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2021-09-16 12:41:43.762 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:43] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:43.762 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:43] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:41:43.763 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:43] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:43.821 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:43] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:41:46.506 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:46] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2021-09-16 12:41:46.551 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:46] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:41:46.551 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:46] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:46.552 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:46] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:46.614 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:46] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:41:55.320 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:55] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2021-09-16 12:41:55.360 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:41:55.360 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:55.360 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:41:55.419 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:41:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:43:10.746 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:43:10.771 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:43:10.771 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:43:10.771 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:43:11.288 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:43:12.915 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:43:12.961 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:43:12.962 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:43:12.962 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:43:12.962 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:43:13.594 INFO base - start: Scheduler started
+2021-09-16 12:43:13.594 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:43:13.595 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:43:13.711 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:43:13.727 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:43:13.783 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:13] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-09-16 12:43:22.657 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:22] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:43:22.684 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:22] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:43:22.698 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:22] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:43:22.700 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:22] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:43:22.761 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:22] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:43:38.859 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:43:38.882 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:43:38.882 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:43:38.882 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:43:39.372 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:43:41.055 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:43:41.100 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:43:41.100 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:43:41.100 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:43:41.100 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:43:41.721 INFO base - start: Scheduler started
+2021-09-16 12:43:41.722 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:43:41.722 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:43:41.839 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:43:41.854 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:43:49.558 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:49] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:43:49.585 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:49] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:43:49.586 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:49] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:43:49.587 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:49] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:43:49.666 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:43:49] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:44:37.036 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:44:37.063 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:44:37.063 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:44:37.063 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:44:37.586 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:44:39.263 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:44:39.307 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:44:39.307 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:44:39.307 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:44:39.308 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:44:39.932 INFO base - start: Scheduler started
+2021-09-16 12:44:39.933 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:44:39.933 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:44:40.051 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:44:40.068 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:44:40.133 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:44:40] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:44:40.171 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:44:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:44:40.171 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:44:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:44:40.171 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:44:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:44:40.234 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:44:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:46:31.753 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:46:31.777 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:46:31.777 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:46:31.778 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:46:32.286 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:46:32.579 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:46:32.579 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:46:32.579 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:47:07.332 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:47:07.376 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:47:07.377 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:47:07.377 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:47:07.377 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:47:07.996 INFO base - start: Scheduler started
+2021-09-16 12:47:07.997 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:47:07.997 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:47:08.110 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:47:08.111 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:47:09.769 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:47:09.814 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:47:09.814 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:47:09.814 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:47:09.814 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:47:10.437 INFO base - start: Scheduler started
+2021-09-16 12:47:10.438 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:47:10.438 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:47:10.548 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:47:10.563 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:47:13.806 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:47:13] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:47:13.826 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:47:13] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:47:13.826 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:47:13] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:47:13.830 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:47:13] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:47:13.905 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:47:13] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:47:51.354 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:47:51.380 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:47:51.380 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:47:51.380 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:47:51.895 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:47:53.655 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:47:53.706 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:47:53.706 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:47:53.706 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:47:53.706 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:47:54.388 INFO base - start: Scheduler started
+2021-09-16 12:47:54.388 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:47:54.388 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:47:54.501 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:47:54.515 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:48:11.266 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:48:11.267 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:48:11.267 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:48:11.268 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:48:11.777 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:48:12.064 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:48:12.065 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:48:12.065 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:48:26.449 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:48:26.493 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:48:26.494 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:48:26.494 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:48:26.494 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:48:27.106 INFO base - start: Scheduler started
+2021-09-16 12:48:27.106 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:48:27.112 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:48:27.219 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:48:27.220 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:48:28.851 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:48:28.895 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:48:28.895 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:48:28.895 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:48:28.896 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:48:29.510 INFO base - start: Scheduler started
+2021-09-16 12:48:29.511 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:48:29.516 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:48:29.622 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:48:29.638 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:48:29.863 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:29] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:48:29.897 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:29] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:48:29.897 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:29] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:48:29.898 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:29] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:48:29.975 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:29] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:48:50.511 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:48:50.542 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:48:50.542 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:48:50.542 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:48:51.051 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:48:52.719 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:48:52.763 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:48:52.763 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:48:52.763 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:48:52.763 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:48:53.379 INFO base - start: Scheduler started
+2021-09-16 12:48:53.379 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:48:53.379 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:48:53.491 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:48:53.506 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:48:55.176 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:55] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:48:55.196 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:48:55.197 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:48:55.198 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:48:55.272 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:48:55] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:49:45.418 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/run.py', reloading
+2021-09-16 12:49:45.448 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:49:45.448 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:49:45.449 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:49:45.983 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:49:46.766 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:49:46.767 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:49:46.767 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:49:49.793 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:49:49.837 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:49:49.837 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:49:49.837 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:49:49.837 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:49:50.445 INFO base - start: Scheduler started
+2021-09-16 12:49:50.446 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:49:50.446 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:49:50.558 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:49:50.559 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:49:52.178 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:49:52.222 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:49:52.222 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:49:52.222 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:49:52.222 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:49:52.824 INFO base - start: Scheduler started
+2021-09-16 12:49:52.824 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:49:52.825 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:49:52.948 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:49:52.963 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:50:06.696 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:50:06] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:50:06.729 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:50:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:50:06.730 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:50:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:50:06.731 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:50:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:50:06.810 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:50:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:50:58.675 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:50:58.696 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:50:58.696 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:50:58.696 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:50:59.217 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:50:59.398 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:50:59.399 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:50:59.399 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:51:02.265 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:51:02.321 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:51:02.321 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:51:02.321 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:51:02.321 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:51:02.953 INFO base - start: Scheduler started
+2021-09-16 12:51:02.954 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:51:02.954 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:51:03.069 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:51:03.070 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:51:04.711 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:51:04.755 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:51:04.755 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:51:04.755 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:51:04.755 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:51:05.377 INFO base - start: Scheduler started
+2021-09-16 12:51:05.377 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:51:05.377 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:51:05.490 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:51:05.505 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:51:06.644 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:51:06] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:51:06.684 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:51:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:51:06.684 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:51:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:51:06.684 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:51:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:51:06.745 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:51:06] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:54:42.482 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/__init__.py', reloading
+2021-09-16 12:54:42.508 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:54:42.509 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:54:42.509 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:54:42.680 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:54:42.680 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:54:42.681 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:54:58.443 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:54:58.489 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:54:58.489 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:54:58.489 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:54:58.489 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:54:59.120 INFO base - start: Scheduler started
+2021-09-16 12:54:59.120 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:54:59.120 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:54:59.240 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 12:54:59.241 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:55:00.883 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:55:00.926 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:55:00.926 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:55:00.927 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:55:00.927 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:55:01.559 INFO base - start: Scheduler started
+2021-09-16 12:55:01.559 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:55:01.559 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:55:01.673 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:55:01.689 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:55:01.843 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:55:01] "[37mPOST /register HTTP/1.1[0m" 200 -
+2021-09-16 12:55:29.784 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:55:29.811 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:55:29.811 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:55:29.811 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:55:30.300 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:55:31.947 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:55:31.993 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:55:31.993 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:55:31.993 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:55:31.993 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:55:32.634 INFO base - start: Scheduler started
+2021-09-16 12:55:32.634 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:55:32.634 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:55:32.750 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:55:32.766 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:55:35.863 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:55:35] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:55:35.883 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:55:35] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:55:35.884 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:55:35] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:55:35.885 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:55:35] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:55:35.963 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:55:35] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:56:00.990 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:56:01.021 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:56:01.021 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:56:01.021 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:56:01.550 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:56:03.190 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:56:03.233 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:56:03.233 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:56:03.233 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:56:03.233 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:56:03.850 INFO base - start: Scheduler started
+2021-09-16 12:56:03.851 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:56:03.851 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:56:03.966 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:56:03.982 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:56:05.027 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:56:05] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:56:05.059 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:56:05] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:56:05.059 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:56:05] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:56:05.060 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:56:05] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:56:05.136 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:56:05] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:57:19.996 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:57:20.023 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:57:20.023 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:57:20.023 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:57:20.566 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:57:22.199 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:57:22.243 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:57:22.243 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:57:22.243 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:57:22.243 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:57:22.858 INFO base - start: Scheduler started
+2021-09-16 12:57:22.858 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:57:22.858 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:57:22.971 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:57:22.986 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:57:34.524 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:57:34.525 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:57:34.526 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:57:34.526 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:57:35.010 INFO _internal - _log:  * Restarting with stat
+2021-09-16 12:57:36.690 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 12:57:36.735 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:57:36.735 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:57:36.735 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 12:57:36.735 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 12:57:37.360 INFO base - start: Scheduler started
+2021-09-16 12:57:37.360 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:57:37.361 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:57:37.473 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 12:57:37.489 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 12:57:39.988 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:57:39] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-09-16 12:57:40.032 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:57:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-09-16 12:57:40.032 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:57:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-09-16 12:57:40.033 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:57:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-09-16 12:57:40.094 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:57:40] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-09-16 12:58:12.537 INFO routes - register: New account created. login: Andrés.
+2021-09-16 12:58:12.539 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:58:12] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-16 12:58:12.543 INFO routes - home: App initialized
+2021-09-16 12:58:12.553 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:58:12] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-09-16 12:58:25.325 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:58:25] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 12:58:26.362 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:58:26] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-09-16 12:58:37.203 INFO routes - register: New account created. login: titi.
+2021-09-16 12:58:37.205 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:58:37] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-09-16 12:58:37.209 INFO routes - home: App initialized
+2021-09-16 12:58:37.212 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 12:58:37] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-09-16 12:59:59.142 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 12:59:59.166 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 12:59:59.166 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 12:59:59.167 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 12:59:59.706 INFO _internal - _log:  * Restarting with stat
+2021-09-16 13:00:01.349 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 13:00:01.396 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 13:00:01.397 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 13:00:01.397 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 13:00:01.397 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 13:00:02.092 INFO base - start: Scheduler started
+2021-09-16 13:00:02.092 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 13:00:02.092 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 13:00:02.205 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 13:00:02.221 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 14:33:52.176 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:33:52] "[32mGET /dashboard/api/endpoint_info/10 HTTP/1.1[0m" 302 -
+2021-09-16 14:33:52.177 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:33:52] "[32mGET /dashboard/api/hourly_load/2021-09-02/2021-09-16/10 HTTP/1.1[0m" 302 -
+2021-09-16 14:33:52.196 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:33:52] "[37mGET /dashboard/login HTTP/1.1[0m" 200 -
+2021-09-16 14:33:52.198 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:33:52] "[37mGET /dashboard/login HTTP/1.1[0m" 200 -
+2021-09-16 14:37:20.381 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 14:37:24.564 INFO csrf - validate_csrf_token: The CSRF token has expired.
+2021-09-16 14:37:24.577 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:24] "[37mPOST /register HTTP/1.1[0m" 200 -
+2021-09-16 14:37:32.082 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:32] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-09-16 14:37:32.809 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:32] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 14:37:37.710 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:37] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-09-16 14:37:42.704 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:42] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-09-16 14:37:44.691 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:44] "[37mGET /reset_password HTTP/1.1[0m" 200 -
+2021-09-16 14:37:48.400 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:48] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2021-09-16 14:37:48.421 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 14:37:48] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 15:15:03.529 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:15:03] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-09-16 15:15:04.821 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:15:04] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-09-16 15:15:05.433 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:15:05] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 15:15:11.265 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:15:11] "[37mGET /reset_password HTTP/1.1[0m" 200 -
+2021-09-16 15:15:14.846 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:15:14] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2021-09-16 15:15:14.852 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:15:14] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 15:16:21.596 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:21] "[37mGET /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTc5ODExMywiZXhwIjoxNjMxNzk5OTEzfQ.eyJ1c2VyX2lkIjoxfQ.Nby9g1ztB7QZatxaV-UsfgqQITVUZX9NtLV0EICmQdKm08tizfrDtONVt3qnOJ2PJJdZ-P8gLzrrsWdAECJGBA HTTP/1.1[0m" 200 -
+2021-09-16 15:16:21.741 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 15:16:26.846 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:26] "[32mPOST /reset_password/eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMTc5ODExMywiZXhwIjoxNjMxNzk5OTEzfQ.eyJ1c2VyX2lkIjoxfQ.Nby9g1ztB7QZatxaV-UsfgqQITVUZX9NtLV0EICmQdKm08tizfrDtONVt3qnOJ2PJJdZ-P8gLzrrsWdAECJGBA HTTP/1.1[0m" 302 -
+2021-09-16 15:16:26.852 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:26] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-09-16 15:16:32.261 INFO routes - login: Logged as: andres.lombana88@gmail.com.
+2021-09-16 15:16:32.263 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-09-16 15:16:32.266 INFO routes - home: App initialized
+2021-09-16 15:16:32.271 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:32] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-09-16 15:16:32.350 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 15:16:33.431 INFO routes - main_page: Entering home endpoint
+2021-09-16 15:16:33.436 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:16:33] "[37mGET /main_page HTTP/1.1[0m" 200 -
+2021-09-16 15:22:55.738 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 15:22:55.764 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 15:22:55.764 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:22:55.764 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 15:22:56.288 INFO _internal - _log:  * Restarting with stat
+2021-09-16 15:22:57.959 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 15:22:58.004 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:22:58.004 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:22:58.004 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:22:58.004 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:22:58.646 INFO base - start: Scheduler started
+2021-09-16 15:22:58.647 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:22:58.647 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 15:22:58.772 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 15:22:58.790 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 15:22:58.830 INFO routes - home: App initialized
+2021-09-16 15:22:58.847 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:22:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-16 15:23:06.187 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:23:06] "[33mGET /gtrft_otr HTTP/1.1[0m" 404 -
+2021-09-16 15:23:59.577 INFO routes - home: App initialized
+2021-09-16 15:23:59.584 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 15:23:59] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-09-16 15:28:00.784 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/routes.py', reloading
+2021-09-16 15:28:00.815 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 15:28:00.816 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:28:00.816 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 15:28:01.303 INFO _internal - _log:  * Restarting with stat
+2021-09-16 15:28:02.936 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 15:28:02.979 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:28:02.979 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:28:02.980 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:28:02.980 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:28:03.586 INFO base - start: Scheduler started
+2021-09-16 15:28:03.586 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:28:03.587 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 15:28:03.704 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 15:28:03.721 INFO _internal - _log:  * Debugger PIN: 161-104-531

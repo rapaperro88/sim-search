@@ -9,7 +9,6 @@ import logging
 import flask_monitoringdashboard as dashboard
 
 
-
 db = SQLAlchemy()
 bcrypt = Bcrypt()
 login_manager = LoginManager()

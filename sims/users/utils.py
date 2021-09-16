@@ -38,6 +38,16 @@ Si vous n'êtes pas à l'origine de cette demande veuillez ignorer ce mail.
     mail.send(msg)
 
 
+def send_error_email_notification(user, error_code):
+    msg = Message(f'[Sim-Search - Admin] Problème général dans le serveur (erreur {error_code}).',
+                  sender='a.lombana.dev@gmail.com',
+                  recipients=[user.email])
+    msg.body = f'''Une erreur {error_code} a été détectée dans l'application Sim-Search !
+Si vous n'êtes pas à administrateur de l'application Sim-Search, veuillez ignorer ce mail.
+'''
+    mail.send(msg)
+
+
 def allowed_file(filename: str, allowed_extensions: set):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in allowed_extensions

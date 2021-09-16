@@ -3415,3 +3415,63 @@
 2021-09-16 15:28:03.587 DEBUG base - _process_jobs: No jobs; waiting until a job is added
 2021-09-16 15:28:03.704 WARNING _internal - _log:  * Debugger is active!
 2021-09-16 15:28:03.721 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 15:40:39.808 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/utils.py', reloading
+2021-09-16 15:40:39.808 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 15:40:39.809 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:40:39.809 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 15:40:40.315 INFO _internal - _log:  * Restarting with stat
+2021-09-16 15:40:41.924 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 15:40:41.969 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:40:41.969 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:40:41.969 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:40:41.969 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:40:42.581 INFO base - start: Scheduler started
+2021-09-16 15:40:42.581 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:40:42.581 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 15:40:42.692 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 15:40:42.707 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 15:44:18.139 INFO _internal - _log:  * Detected change in '/home/afl/Dropbox/SIMPLON/projet_chef_oeuvre/sim-search/sims/users/utils.py', reloading
+2021-09-16 15:44:18.140 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 15:44:18.141 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:44:18.141 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 15:44:18.643 INFO _internal - _log:  * Restarting with stat
+2021-09-16 15:44:20.280 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 15:44:20.325 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:44:20.325 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:44:20.325 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 15:44:20.325 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 15:44:21.330 INFO base - shutdown: Scheduler has been shut down
+2021-09-16 15:44:21.330 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 15:44:21.330 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 16:17:41.722 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 16:17:41.766 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 16:17:41.767 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 16:17:41.767 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 16:17:41.767 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 16:17:42.394 INFO base - start: Scheduler started
+2021-09-16 16:17:42.394 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 16:17:42.394 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 16:17:42.508 INFO _internal - _log:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-16 16:17:42.509 INFO _internal - _log:  * Restarting with stat
+2021-09-16 16:17:44.173 DEBUG tpu_cluster_resolver - <module>: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-09-16 16:17:44.223 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 16:17:44.223 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 16:17:44.223 DEBUG __init__ - <module>: Creating converter from 7 to 5
+2021-09-16 16:17:44.223 DEBUG __init__ - <module>: Creating converter from 5 to 7
+2021-09-16 16:17:44.849 INFO base - start: Scheduler started
+2021-09-16 16:17:44.849 DEBUG base - _process_jobs: Looking for jobs to run
+2021-09-16 16:17:44.849 DEBUG base - _process_jobs: No jobs; waiting until a job is added
+2021-09-16 16:17:44.959 WARNING _internal - _log:  * Debugger is active!
+2021-09-16 16:17:44.972 INFO _internal - _log:  * Debugger PIN: 161-104-531
+2021-09-16 16:17:45.009 INFO routes - main_page: Entering home endpoint
+2021-09-16 16:17:45.026 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 16:17:45] "[37mGET /main_page HTTP/1.1[0m" 200 -
+2021-09-16 16:17:45.104 ERROR handlers - error_404: Error 404 encountered.
+2021-09-16 16:17:46.290 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 16:17:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-16 16:17:49.322 ERROR handlers - error_404: Error 404 encountered.
+2021-09-16 16:17:50.186 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 16:17:50] "[33mGET /main_pa HTTP/1.1[0m" 404 -
+2021-09-16 16:18:19.342 ERROR handlers - error_404: Error 404 encountered.
+2021-09-16 16:18:20.267 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 16:18:20] "[33mGET /mainii HTTP/1.1[0m" 404 -
+2021-09-16 16:18:26.226 ERROR handlers - error_404: Error 404 encountered.
+2021-09-16 16:18:27.043 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 16:18:27] "[33mGET /mai HTTP/1.1[0m" 404 -
+2021-09-16 16:19:07.068 ERROR handlers - error_404: Error 404 encountered.
+2021-09-16 16:19:07.912 INFO _internal - _log: 127.0.0.1 - - [16/Sep/2021 16:19:07] "[33mGET /mai HTTP/1.1[0m" 404 -
